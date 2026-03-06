@@ -21,8 +21,8 @@ Currently, you can dive right into the core foundations:
 
 - **Block 0: Foundations**
   Learn the fundamental building blocks of AI: Tokenization, Embeddings, Transformer Architectures, Context Windows, Inference Parameters, and the Model Landscape.
-  - 📖 [Read the Theory](./docs/block-00/)
-  - 💻 [Do the Exercises](./exercises/block-00/)
+  - 📖 [Read the Theory](./docs/block-00/index.md)
+  - 💻 [Do the Exercises](./exercises/block-00/index.md)
 
 ---
 
