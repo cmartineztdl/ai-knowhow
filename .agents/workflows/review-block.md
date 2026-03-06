@@ -57,6 +57,11 @@ npx vitest run --root solutions/block-XX
 - Verify exercises map 1:1 with solutions
 - Verify test files are identical between exercises and solutions
 - Check that theory covers all concepts tested in exercises
+- Verify **content-linker** navigation sections exist (`.agents/skills/content-linker/SKILL.md`):
+  - Every theory doc has "Practice This" and Previous/Next links
+  - Every exercise README links to its theory doc and solution
+  - Every solution walkthrough links to its theory doc and exercise
+  - All relative paths resolve to existing files
 
 ### 5. Report
 

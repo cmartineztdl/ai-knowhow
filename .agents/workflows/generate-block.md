@@ -61,7 +61,15 @@ Use the **tool-builder** skill (`.agents/skills/tool-builder/SKILL.md`):
 - Create utility scripts in `/tools/`
 - Update `/tools/README.md`
 
-### 7. Verify solutions
+### 7. Cross-link content
+
+Use the **content-linker** skill (`.agents/skills/content-linker/SKILL.md`):
+
+- Build the content map for the block (topic → exercise → solution → tool)
+- Add navigation sections to all theory docs, exercise READMEs, solution walkthroughs, and tools README
+- Verify all relative paths resolve to existing files
+
+### 8. Verify solutions
 
 // turbo
 
@@ -71,7 +79,7 @@ npx vitest run --root solutions/block-XX
 
 All tests must pass. If any fail, fix the solution and re-run.
 
-### 8. Verify exercises fail
+### 9. Verify exercises fail
 
 // turbo
 
@@ -81,11 +89,11 @@ npx vitest run --root exercises/block-XX 2>&1 || true
 
 Confirm tests fail (this is expected — exercises are broken by design).
 
-### 9. Commit
+### 10. Commit
 
 ```bash
 git add docs/block-XX exercises/block-XX solutions/block-XX tools/
-git commit -m "feat(block-XX): add theory, exercises, solutions, and tools"
+git commit -m "Add theory, exercises, solutions, and tools for block block-XX"
 ```
 
 Replace `XX` with the actual block number.

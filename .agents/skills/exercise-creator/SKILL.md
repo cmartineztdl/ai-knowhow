@@ -116,3 +116,4 @@ export function functionName(param: Type): ReturnType {
 - [ ] Difficulty progresses within the block
 - [ ] vitest.config.ts is correct and tests can be discovered
 - [ ] No solutions are accidentally included in exercise code
+- [ ] _Cross-links to theory docs and solutions are added by the **content-linker** skill — do not add them manually_

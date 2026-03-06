@@ -88,3 +88,4 @@ Describe what the image should show in the alt text.
 - [ ] Code examples are syntactically correct and runnable
 - [ ] Image placeholders have descriptive alt text
 - [ ] No placeholder/lorem text left behind
+- [ ] _Cross-links to exercises and tools are added by the **content-linker** skill — do not add them manually_

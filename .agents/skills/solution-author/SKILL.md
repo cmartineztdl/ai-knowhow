@@ -105,3 +105,4 @@ How to confirm the fix works (run tests, check output).
 - [ ] WALKTHROUGHs are thorough but concise
 - [ ] Test files are identical to exercise test files
 - [ ] No hardcoded values that only work for specific test cases
+- [ ] _Cross-links to theory docs and exercises are added by the **content-linker** skill — do not add them manually_
