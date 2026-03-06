@@ -52,3 +52,10 @@ if (candidates.length === 0) return null;
 - Real model selection uses a similar pattern: hard constraints first, then soft ranking
 - Weighting criteria lets you express preferences without hard cutoffs
 - The "best" model depends entirely on the task — there's no universal answer
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Model Landscape](../../../docs/block-00/06-model-landscape.md)
+- 🏋️ [Exercise](../../../exercises/block-00/ex-05-model-selection/)

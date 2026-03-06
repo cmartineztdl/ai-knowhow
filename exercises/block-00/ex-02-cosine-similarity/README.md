@@ -15,3 +15,10 @@ Implement the `cosineSimilarity` function that measures how similar two embeddin
 - Hint 1: The dot product is the sum of element-wise products of two vectors
 - Hint 2: Magnitude is the square root of the dot product of a vector with itself
 - Hint 3: Cosine similarity = dot(a, b) / (magnitude(a) \* magnitude(b))
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
+- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-02-cosine-similarity/WALKTHROUGH.md)

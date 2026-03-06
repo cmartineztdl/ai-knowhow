@@ -17,3 +17,11 @@ npx vitest run --root solutions/block-00
 | 03  | [Build a Context Window Manager](ex-03-context-window/WALKTHROUGH.md)   | Token budgeting, sliding window     |
 | 04  | [Configure Inference Parameters](ex-04-inference-params/WALKTHROUGH.md) | Temperature, top-p, validation      |
 | 05  | [Model Selection Engine](ex-05-model-selection/WALKTHROUGH.md)          | Model comparison, scoring           |
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory docs for this block](../../docs/block-00/)
+- 🏋️ [Exercises for this block](../../exercises/block-00/)
+- 📋 [Course Outline](../../docs/COURSE_OUTLINE.md)

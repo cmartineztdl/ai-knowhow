@@ -15,3 +15,10 @@ Build a model selection engine that recommends the best LLM for a given task bas
 - Hint 1: Start with `filterByConstraints` — it removes models that violate hard requirements
 - Hint 2: For scoring, consider weighting each criterion differently based on the requirements
 - Hint 3: A model that is too expensive or too small for the context should score 0
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Model Landscape](../../../docs/block-00/06-model-landscape.md)
+- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-05-model-selection/WALKTHROUGH.md)

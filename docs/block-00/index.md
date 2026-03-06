@@ -18,3 +18,12 @@ None — this is the starting block.
 ## What You'll Learn
 
 After completing this block you will understand the core machinery behind every LLM-powered tool you use. You won't need to train models yourself, but you'll know _why_ a prompt behaves the way it does, why context limits matter, and how to pick the right model for a task.
+
+---
+
+## 🧭 Resources
+
+- 🏋️ [Exercises for this block](../../exercises/block-00/)
+- ✅ [Solutions for this block](../../solutions/block-00/)
+- 🔧 [Tools](../../tools/)
+- 📋 [Course Outline](../COURSE_OUTLINE.md)

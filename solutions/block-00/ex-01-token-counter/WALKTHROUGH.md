@@ -41,3 +41,10 @@ Run `npx vitest run` — all tokenization tests should show correct greedy match
 - BPE tokenizers are **greedy** — they always match the longest possible token first
 - API pricing is always quoted per 1000 (or per million) tokens — always divide accordingly
 - The order of iteration matters when doing pattern matching against a vocabulary
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
+- 🏋️ [Exercise](../../../exercises/block-00/ex-01-token-counter/)

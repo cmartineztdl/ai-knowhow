@@ -47,3 +47,10 @@ return trimConversation([systemMessage, ...history], maxTokens, outputReserve);
 - Newest messages are usually more relevant than oldest ones
 - The system prompt is non-negotiable — it always stays
 - The 1:4 chars-to-tokens ratio is a rough but useful approximation for English text
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Context Windows & Memory](../../../docs/block-00/04-context-windows-and-memory.md)
+- 🏋️ [Exercise](../../../exercises/block-00/ex-03-context-window/)

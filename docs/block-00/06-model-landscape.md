@@ -139,3 +139,16 @@ Use this decision framework:
 - [Google AI — Gemini](https://ai.google.dev/gemini-api/docs)
 - [Ollama — Run open-source models locally](https://ollama.ai)
 - [Chatbot Arena Leaderboard — LMSYS](https://chat.lmsys.org/?leaderboard)
+
+---
+
+## 🧭 Navigation
+
+### Practice This
+
+- 🏋️ [Exercise: Model Selection Engine](../../exercises/block-00/ex-05-model-selection/)
+
+### Continue Reading
+
+- ⬅️ Previous: [Inference Parameters](05-inference-parameters.md)
+- 📚 [Back to Block Index](index.md)

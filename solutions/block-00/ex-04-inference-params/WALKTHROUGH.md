@@ -44,3 +44,10 @@ return { ...defaults, ...overrides };
 - Matching inference parameters to use cases is critical — wrong settings waste money or produce bad output
 - Temperature 0 is not "no creativity" — it's deterministic greedy decoding
 - Validation prevents costly API errors — better to catch bad params locally
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Inference Parameters](../../../docs/block-00/05-inference-parameters.md)
+- 🏋️ [Exercise](../../../exercises/block-00/ex-04-inference-params/)

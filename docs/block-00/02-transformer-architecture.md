@@ -93,3 +93,13 @@ Modern LLMs stack dozens or hundreds of these blocks. GPT-4 is rumored to have 1
 - [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 - [3Blue1Brown — Attention in Transformers, visually explained](https://www.youtube.com/watch?v=eMlx5fFNoYc)
 - [Andrej Karpathy — Let's build GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+
+---
+
+## 🧭 Navigation
+
+### Continue Reading
+
+- ⬅️ Previous: [Tokenization & Embeddings](01-tokenization-and-embeddings.md)
+- ➡️ Next: [Pre-training vs Fine-tuning](03-pre-training-vs-fine-tuning.md)
+- 📚 [Back to Block Index](index.md)

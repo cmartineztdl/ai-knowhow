@@ -29,3 +29,11 @@ Each exercise has:
 - `README.md` — Instructions, hints, and context
 
 Fix the code in `src/index.ts` until all tests pass. Don't modify the test files!
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory docs for this block](../../docs/block-00/)
+- ✅ [Solutions for this block](../../solutions/block-00/)
+- 📋 [Course Outline](../../docs/COURSE_OUTLINE.md)

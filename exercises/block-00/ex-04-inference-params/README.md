@@ -15,3 +15,10 @@ Build a parameter configuration system that selects the right inference paramete
 - Hint 1: Code generation should be deterministic (low temperature), not creative
 - Hint 2: Temperature range is 0–2, top_p is 0–1
 - Hint 3: The merge function should let user overrides take precedence over defaults
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Inference Parameters](../../../docs/block-00/05-inference-parameters.md)
+- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-04-inference-params/WALKTHROUGH.md)

@@ -140,3 +140,17 @@ const extraction = await openai.chat.completions.create({
 - [OpenAI API — Parameters reference](https://platform.openai.com/docs/api-reference/chat/create)
 - [Anthropic — Sampling parameters](https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/increase-consistency)
 - [How to sample from language models — Hugging Face](https://huggingface.co/blog/how-to-generate)
+
+---
+
+## 🧭 Navigation
+
+### Practice This
+
+- 🏋️ [Exercise: Configure Inference Parameters](../../exercises/block-00/ex-04-inference-params/)
+
+### Continue Reading
+
+- ⬅️ Previous: [Context Windows & Memory](04-context-windows-and-memory.md)
+- ➡️ Next: [Model Landscape](06-model-landscape.md)
+- 📚 [Back to Block Index](index.md)

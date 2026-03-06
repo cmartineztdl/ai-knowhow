@@ -65,3 +65,10 @@ return bestIndex;
 - Cosine similarity is the fundamental operation behind semantic search
 - Always handle the zero-vector edge case — it's mathematically undefined
 - This exact math runs behind every embedding-based search system
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
+- 🏋️ [Exercise](../../../exercises/block-00/ex-02-cosine-similarity/)

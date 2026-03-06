@@ -12,9 +12,9 @@ npx tsx tools/<tool-name>.ts --help
 
 ## Available Tools
 
-| Tool                                 | Description                                         | Block |
-| ------------------------------------ | --------------------------------------------------- | ----- |
-| [token-counter.ts](token-counter.ts) | Estimate token count and API cost for text or files | 0     |
+| Tool                                 | Description                                         | Block | Related Theory                                                                  |
+| ------------------------------------ | --------------------------------------------------- | ----- | ------------------------------------------------------------------------------- |
+| [token-counter.ts](token-counter.ts) | Estimate token count and API cost for text or files | 0     | [Tokenization & Embeddings](../docs/block-00/01-tokenization-and-embeddings.md) |
 
 ## Usage
 

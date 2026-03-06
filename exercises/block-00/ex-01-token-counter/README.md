@@ -14,3 +14,10 @@ The `countTokens` function is supposed to simulate BPE-style tokenization by spl
 - Hint 1: Look carefully at how the vocabulary matching works — is it checking in the right order?
 - Hint 2: The cost calculation might have a unit conversion issue
 - Hint 3: BPE processes the longest matching vocabulary entries first
+
+---
+
+## 🧭 Related Materials
+
+- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
+- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-01-token-counter/WALKTHROUGH.md)

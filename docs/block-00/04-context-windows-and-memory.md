@@ -124,3 +124,17 @@ Research has shown that LLMs pay the most attention to tokens at the **beginning
 - [Anthropic — Long context prompting tips](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/long-context-tips)
 - [OpenAI — Managing tokens](https://platform.openai.com/docs/guides/rate-limits/managing-tokens)
 - [LangChain — Text splitters](https://js.langchain.com/docs/how_to/#text-splitters)
+
+---
+
+## 🧭 Navigation
+
+### Practice This
+
+- 🏋️ [Exercise: Build a Context Window Manager](../../exercises/block-00/ex-03-context-window/)
+
+### Continue Reading
+
+- ⬅️ Previous: [Pre-training vs Fine-tuning](03-pre-training-vs-fine-tuning.md)
+- ➡️ Next: [Inference Parameters](05-inference-parameters.md)
+- 📚 [Back to Block Index](index.md)
