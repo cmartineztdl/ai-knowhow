@@ -1,5 +1,7 @@
 # OpenAI API
 
+import InteractiveExercise from '@site/src/components/InteractiveExercise';
+
 > Learn how to call OpenAI's Chat Completions API from TypeScript, handle responses, and use function calling.
 
 ## Introduction
@@ -141,7 +143,9 @@ The model doesn't execute the function — it tells you _which_ function to call
 
 ### Practice This
 
-- 🏋️ [Exercise: Build a Chat Completions Client](pathname:///exercises/block-01/ex-01-chat-completions/)
+#### Build a Chat Completions Client
+<InteractiveExercise block="block-01" exercise="ex-01-chat-completions" />
+
 - 🔧 [Tool: api-tester.ts](pathname:///tools/api-tester.ts)
 
 ### Continue Reading

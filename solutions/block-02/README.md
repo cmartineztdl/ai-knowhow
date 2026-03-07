@@ -25,6 +25,6 @@ All tests should pass.
 
 ## 🧭 Related Materials
 
-- 📖 [Theory docs for this block](../../docs/block-02/)
-- 🏋️ [Exercises for this block](../../exercises/block-02/)
-- 📋 [Course Outline](../../docs/COURSE_OUTLINE.md)
+- 📖 [Theory docs for this block](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- 🏋️ [Exercises for this block](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-02/)
+- 📋 [Course Outline](https://cmartineztdl.github.io/ai-knowhow/docs/COURSE_OUTLINE)

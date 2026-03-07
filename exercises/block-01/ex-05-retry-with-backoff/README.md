@@ -21,5 +21,5 @@ Build a retry utility that handles transient API errors with exponential backoff
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Error Handling & Retries](../../../docs/block-01/06-error-handling-and-retries.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-01/ex-05-retry-with-backoff/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-01/ex-05-retry-with-backoff/WALKTHROUGH.md)

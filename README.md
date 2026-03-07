@@ -10,34 +10,19 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 
 ## 📚 Course Structure
 
-The repository is organized to provide a seamless learning experience, starting with theory and culminating in hands-on code:
+The repository is organized to provide a seamless learning experience:
 
-- **[Theory & Concepts (`/docs`)](./docs/COURSE_OUTLINE.md)** — Core concepts and detailed explanations of how AI models work.
-- **[Coding Exercises (`/exercises`)](./exercises/)** — Practical challenges with intentional bugs for you to fix.
-- **[Solutions & Walkthroughs (`/solutions`)](./solutions/)** — Complete, optimal solutions with step-by-step explanations.
+- **Theory & Exercises** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/). The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
+- **[Solutions (`/solutions`)](./solutions/)** — Complete, optimal solutions with step-by-step explanations for all exercises.
 - **[Developer Tools (`/tools`)](./tools/)** — Reusable CLI utility scripts for interacting with AI models.
 
 ## 🗺️ Course Blocks
 
 ### Available Now
 
-- **Block 0: Foundations — How LLMs Actually Work**
-  Before using AI tools effectively you need a mental model of what is happening under the hood.
-  - 📖 [Read the Theory](./docs/block-00/)
-  - 💻 [Do the Exercises](./exercises/block-00/)
-  - ✅ [View the Solutions](./solutions/block-00/)
-
-- **Block 1: Talking to Models — APIs & SDKs**
-  Hands-on interaction with LLM APIs from JavaScript/TypeScript.
-  - 📖 [Read the Theory](./docs/block-01/)
-  - 💻 [Do the Exercises](./exercises/block-01/)
-  - ✅ [View the Solutions](./solutions/block-01/)
-
-- **Block 2: Prompt Engineering**
-  The art and science of getting the output you actually want.
-  - 📖 [Read the Theory](./docs/block-02/)
-  - 💻 [Do the Exercises](./exercises/block-02/)
-  - ✅ [View the Solutions](./solutions/block-02/)
+- 📖 **[Block 0: Foundations: How LLMs Actually Work](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)** — Before using AI tools effectively you need a mental model of what is happening under the hood.
+- 📖 **[Block 1: Talking to Models: APIs & SDKs](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)** — Hands-on interaction with LLM APIs from JavaScript/TypeScript.
+- 📖 **[Block 2: Prompt Engineering](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)** — The art and science of getting the output you actually want.
 
 ### Coming Soon
 
@@ -53,7 +38,7 @@ The repository is organized to provide a seamless learning experience, starting 
 
 Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the path that interests you most. Blocks 0–2 are sequential prerequisites; after that, explore in parallel depending on your goals.
 
-> See the **[Full Course Outline](./docs/COURSE_OUTLINE.md)** for topic details and the recommended dependency graph.
+> See the **[Full Course Outline](https://cmartineztdl.github.io/ai-knowhow/docs/COURSE_OUTLINE)** for topic details and the recommended dependency graph.
 
 ## 🏷️ Topics
 

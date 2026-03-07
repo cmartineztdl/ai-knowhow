@@ -1,5 +1,7 @@
 # Output Formatting
 
+import InteractiveExercise from '@site/src/components/InteractiveExercise';
+
 > Learn how to get LLMs to return structured, machine-readable output every time.
 
 ## Introduction
@@ -163,7 +165,8 @@ For custom formats, parse them with simple string operations or regex. The key i
 
 ### Practice This
 
-- 🏋️ [Exercise: Enforce Structured Output](pathname:///exercises/block-02/ex-03-structured-output/)
+#### Enforce Structured Output
+<InteractiveExercise block="block-02" exercise="ex-03-structured-output" />
 
 ### Continue Reading
 

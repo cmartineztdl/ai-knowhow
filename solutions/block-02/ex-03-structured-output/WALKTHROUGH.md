@@ -57,5 +57,5 @@ Fix parsing first (needed by the others), then validation, then the retry logic.
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Output Formatting](../../../docs/block-02/03-output-formatting.md)
-- 🏋️ [Exercise](../../../exercises/block-02/ex-03-structured-output/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-02/ex-03-structured-output/)

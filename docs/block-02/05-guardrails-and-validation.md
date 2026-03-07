@@ -1,5 +1,7 @@
 # Guardrails & Validation
 
+import InteractiveExercise from '@site/src/components/InteractiveExercise';
+
 > Protect your application from bad inputs, unexpected outputs, and prompt injection attacks.
 
 ## Introduction
@@ -241,7 +243,8 @@ async function getValidOutput<T>(
 
 ### Practice This
 
-- 🏋️ [Exercise: Implement Input Guardrails](pathname:///exercises/block-02/ex-05-input-guardrails/)
+#### Implement Input Guardrails
+<InteractiveExercise block="block-02" exercise="ex-05-input-guardrails" />
 
 ### Continue Reading
 

@@ -52,5 +52,5 @@ return trimConversation([systemMessage, ...history], maxTokens, outputReserve);
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Context Windows & Memory](../../../docs/block-00/04-context-windows-and-memory.md)
-- 🏋️ [Exercise](../../../exercises/block-00/ex-03-context-window/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-00/ex-03-context-window/)

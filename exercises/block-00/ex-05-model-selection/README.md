@@ -20,5 +20,5 @@ Build a model selection engine that recommends the best LLM for a given task bas
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Model Landscape](../../../docs/block-00/06-model-landscape.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-05-model-selection/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-00/ex-05-model-selection/WALKTHROUGH.md)

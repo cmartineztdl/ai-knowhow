@@ -20,5 +20,5 @@ Build a comprehensive input validation pipeline for LLM applications: sanitizati
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Guardrails & Validation](../../../docs/block-02/05-guardrails-and-validation.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-02/ex-05-input-guardrails/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-02/ex-05-input-guardrails/WALKTHROUGH.md)

@@ -49,5 +49,5 @@ The loop was resetting totals each iteration:
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Token Counting & Pricing](../../../docs/block-01/04-token-counting-and-pricing.md)
-- 🏋️ [Exercise](../../../exercises/block-01/ex-04-cost-estimator/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-01/ex-04-cost-estimator/)

@@ -20,5 +20,5 @@ Build functions that construct prompts using zero-shot, few-shot, and chain-of-t
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Zero-Shot, Few-Shot, Chain-of-Thought](../../../docs/block-02/01-zero-shot-few-shot-chain-of-thought.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-02/ex-01-prompt-strategies/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-02/ex-01-prompt-strategies/WALKTHROUGH.md)

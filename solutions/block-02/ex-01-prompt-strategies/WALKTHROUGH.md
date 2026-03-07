@@ -59,5 +59,5 @@ The reasoning instruction was a separate user message with the wrong text:
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Zero-Shot, Few-Shot, Chain-of-Thought](../../../docs/block-02/01-zero-shot-few-shot-chain-of-thought.md)
-- 🏋️ [Exercise](../../../exercises/block-02/ex-01-prompt-strategies/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-02/ex-01-prompt-strategies/)

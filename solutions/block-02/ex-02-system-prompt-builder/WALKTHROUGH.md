@@ -49,5 +49,5 @@ Fix each function independently: correct the rules formatting, add the missing s
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: System vs User vs Assistant Roles](../../../docs/block-02/02-system-vs-user-vs-assistant-roles.md)
-- 🏋️ [Exercise](../../../exercises/block-02/ex-02-system-prompt-builder/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-02/ex-02-system-prompt-builder/)

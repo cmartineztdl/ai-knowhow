@@ -18,12 +18,13 @@ const config: Config = {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
+  staticDirectories: ['static', 'exercises'],
 
   // Set the production url of your site here
   url: 'https://cmartineztdl.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ai-knowhow.github.io/',
+  baseUrl: '/ai-knowhow/',
 
   // GitHub pages deployment config.
   organizationName: 'cmartineztdl',

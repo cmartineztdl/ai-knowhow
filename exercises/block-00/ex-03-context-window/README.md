@@ -20,5 +20,5 @@ Build a context window manager that handles conversation history within a token 
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Context Windows & Memory](../../../docs/block-00/04-context-windows-and-memory.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-03-context-window/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-00/ex-03-context-window/WALKTHROUGH.md)

@@ -20,5 +20,5 @@ Build functions that enforce structured JSON output from LLM responses: parse ra
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Output Formatting](../../../docs/block-02/03-output-formatting.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-02/ex-03-structured-output/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-02/ex-03-structured-output/WALKTHROUGH.md)

@@ -19,5 +19,5 @@ The `countTokens` function is supposed to simulate BPE-style tokenization by spl
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-01-token-counter/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-00/ex-01-token-counter/WALKTHROUGH.md)

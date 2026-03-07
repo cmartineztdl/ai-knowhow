@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Sandpack } from '@codesandbox/sandpack-react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 interface InteractiveExerciseProps {
   block: string;
@@ -10,16 +11,17 @@ export default function InteractiveExercise({ block, exercise }: InteractiveExer
   const [files, setFiles] = useState<Record<string, string> | null>(null);
   const [error, setError] = useState<string | null>(null);
 
+  const basePath = useBaseUrl(`/${block}/${exercise}`);
+  const tsconfigPath = useBaseUrl(`/${block}/tsconfig.json`);
+
   useEffect(() => {
     let mounted = true;
 
     async function loadFiles() {
       try {
-        const basePath = `/exercises/${block}/${exercise}`;
-        
         const exRes = await fetch(`${basePath}/src/index.ts`);
         const testRes = await fetch(`${basePath}/__tests__/index.test.ts`);
-        const tsconfigRes = await fetch(`/exercises/${block}/tsconfig.json`);
+        const tsconfigRes = await fetch(tsconfigPath);
 
         if (!exRes.ok) throw new Error(`Failed to load ${exercise}/src/index.ts`);
         if (!testRes.ok) throw new Error(`Failed to load ${exercise}/__tests__/index.test.ts`);
@@ -44,8 +46,12 @@ export default defineConfig({
             "/package.json": JSON.stringify({
               name: "ai-knowhow-exercise",
               version: "1.0.0",
+              type: "module",
               scripts: {
                 test: "vitest run"
+              },
+              dependencies: {
+                "dotenv": "^16.4.5"
               },
               devDependencies: {
                 "vitest": "^1.0.0",
@@ -80,7 +86,8 @@ export default defineConfig({
         files={files}
         customSetup={{
           dependencies: {
-            "vitest": "^1.0.0"
+            "vitest": "^1.0.0",
+            "dotenv": "^16.4.5"
           }
         }}
         options={{
@@ -89,7 +96,7 @@ export default defineConfig({
           activeFile: `/src/index.ts`,
           visibleFiles: [
             `/src/index.ts`,
-            `/src/index.test.ts`
+            `/__tests__/index.test.ts`
           ]
         }}
       />

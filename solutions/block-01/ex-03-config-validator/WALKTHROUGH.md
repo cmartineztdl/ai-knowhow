@@ -57,5 +57,5 @@ Real API keys contain hyphens and underscores, not just alphanumeric characters:
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Authentication & Key Management](../../../docs/block-01/03-authentication-and-key-management.md)
-- 🏋️ [Exercise](../../../exercises/block-01/ex-03-config-validator/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-01/ex-03-config-validator/)

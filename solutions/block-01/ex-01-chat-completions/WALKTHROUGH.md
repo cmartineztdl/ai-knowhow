@@ -60,5 +60,5 @@ A `finish_reason` of `"length"` means the response was cut off, while `"stop"` m
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: OpenAI API](../../../docs/block-01/01-openai-api.md)
-- 🏋️ [Exercise](../../../exercises/block-01/ex-01-chat-completions/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-01/ex-01-chat-completions/)

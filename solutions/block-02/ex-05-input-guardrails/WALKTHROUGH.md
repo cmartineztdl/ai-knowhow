@@ -59,5 +59,5 @@ The range `\x00-\x1F` includes `\t` (0x09) and `\n` (0x0A). We skip those by exc
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Guardrails & Validation](../../../docs/block-02/05-guardrails-and-validation.md)
-- 🏋️ [Exercise](../../../exercises/block-02/ex-05-input-guardrails/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-02/ex-05-input-guardrails/)

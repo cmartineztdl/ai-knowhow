@@ -56,5 +56,5 @@ Fix the off-by-one (remove `+ 1` from loop bound) and add retryability check:
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Error Handling & Retries](../../../docs/block-01/06-error-handling-and-retries.md)
-- 🏋️ [Exercise](../../../exercises/block-01/ex-05-retry-with-backoff/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-01/ex-05-retry-with-backoff/)

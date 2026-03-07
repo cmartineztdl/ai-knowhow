@@ -1,5 +1,7 @@
 # Error Handling & Retries
 
+import InteractiveExercise from '@site/src/components/InteractiveExercise';
+
 > Learn how to build resilient LLM integrations with proper error handling, exponential backoff, and circuit breaker patterns.
 
 ## Introduction
@@ -217,7 +219,8 @@ This gives you: retry with backoff for transient errors → circuit break if fai
 
 ### Practice This
 
-- 🏋️ [Exercise: Implement Retry with Backoff](pathname:///exercises/block-01/ex-05-retry-with-backoff/)
+#### Implement Retry with Backoff
+<InteractiveExercise block="block-01" exercise="ex-05-retry-with-backoff" />
 
 ### Continue Reading
 

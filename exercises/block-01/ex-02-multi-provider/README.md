@@ -19,5 +19,5 @@ Build an adapter layer that normalizes responses from both OpenAI and Anthropic 
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Anthropic API](../../../docs/block-01/02-anthropic-api.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-01/ex-02-multi-provider/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-01/ex-02-multi-provider/WALKTHROUGH.md)

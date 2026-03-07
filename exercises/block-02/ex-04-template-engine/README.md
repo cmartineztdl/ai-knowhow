@@ -20,5 +20,5 @@ Build a simple prompt template engine that supports variable substitution, condi
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Prompt Templates & Variables](../../../docs/block-02/04-prompt-templates-and-variables.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-02/ex-04-template-engine/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-02/ex-04-template-engine/WALKTHROUGH.md)

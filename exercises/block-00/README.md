@@ -34,6 +34,6 @@ Fix the code in `src/index.ts` until all tests pass. Don't modify the test files
 
 ## 🧭 Related Materials
 
-- 📖 [Theory docs for this block](../../docs/block-00/)
-- ✅ [Solutions for this block](../../solutions/block-00/)
-- 📋 [Course Outline](../../docs/COURSE_OUTLINE.md)
+- 📖 [Theory docs for this block](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- ✅ [Solutions for this block](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-00/)
+- 📋 [Course Outline](https://cmartineztdl.github.io/ai-knowhow/docs/COURSE_OUTLINE)

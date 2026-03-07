@@ -20,5 +20,5 @@ Implement the `cosineSimilarity` function that measures how similar two embeddin
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-02-cosine-similarity/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-00/ex-02-cosine-similarity/WALKTHROUGH.md)

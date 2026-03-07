@@ -25,11 +25,9 @@ Overwrites `/README.md` (the repository root) and `/src/pages/index.mdx` (the Do
 1. **Read** `docs/COURSE_OUTLINE.md` to get all block titles, descriptions, and topic tables
 2. **Scan** the filesystem for directories matching `docs/block-XX/`, `exercises/block-XX/`, and `solutions/block-XX/` to determine which blocks have published content
 
-### 2. Regenerate README.md
+### 2. Regenerate files
 
 Overwrite the root `README.md` and `src/pages/index.mdx` using the templates below. Replace placeholders with real data.
-
-### 2a. GitHub README.md Template
 
 ### 2a. GitHub README.md Template
 
@@ -46,12 +44,11 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 
 ## 📚 Course Structure
 
-The repository is organized to provide a seamless learning experience, starting with theory and culminating in hands-on code:
+The repository is organized to provide a seamless learning experience:
 
-- **[Theory & Concepts (`/docs`)](/docs/COURSE_OUTLINE)** — Core concepts and detailed explanations of how AI models work.
-- **[Coding Exercises (`/exercises`)](pathname:///exercises/)** — Practical challenges with intentional bugs for you to fix.
-- **[Solutions & Walkthroughs (`/solutions`)](pathname:///solutions/)** — Complete, optimal solutions with step-by-step explanations.
-- **[Developer Tools (`/tools`)](pathname:///tools/)** — Reusable CLI utility scripts for interacting with AI models.
+- **Theory & Exercises** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/). The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
+- **[Solutions (`/solutions`)](./solutions/)** — Complete, optimal solutions with step-by-step explanations for all exercises.
+- **[Developer Tools (`/tools`)](./tools/)** — Reusable CLI utility scripts for interacting with AI models.
 
 ## 🗺️ Course Blocks
 
@@ -59,11 +56,7 @@ The repository is organized to provide a seamless learning experience, starting 
 
 <!-- FOR EACH BLOCK THAT HAS CONTENT (docs/block-XX/ exists): -->
 
-- **Block {N}: {Block Title}**
-  {One-line description from the outline.}
-  - 📖 [Read the Theory](./docs/block-{NN}/)
-  - 💻 [Do the Exercises](pathname:///exercises/block-{NN}/)
-  - ✅ [View the Solutions](pathname:///solutions/block-{NN}/)
+- 📖 **[Block {N}: {Block Title}](https://cmartineztdl.github.io/ai-knowhow/docs/block-{NN}/)** — {One-line description from the outline.}
 
 <!-- END FOR EACH -->
 
@@ -79,7 +72,7 @@ The repository is organized to provide a seamless learning experience, starting 
 
 Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the path that interests you most. Blocks 0–2 are sequential prerequisites; after that, explore in parallel depending on your goals.
 
-> See the **[Full Course Outline](/docs/COURSE_OUTLINE)** for topic details and the recommended dependency graph.
+> See the **[Full Course Outline](https://cmartineztdl.github.io/ai-knowhow/docs/COURSE_OUTLINE)** for topic details and the recommended dependency graph.
 
 ## 🏷️ Topics
 
@@ -96,14 +89,24 @@ If you found this material helpful or learned something new, consider supporting
 
 ### 2b. Docusaurus src/pages/index.mdx Template
 
-This is identical to the README template, but prepended with the Docusaurus SEO frontmatter block, and it does not need the website banner callout since the user is already on the website.
+This is nearly identical to the README template, but prepended with the Docusaurus SEO frontmatter block, and it does not need the website banner callout since the user is already on the website, and uses relative links for internal links.
 
 ```mdx
 ---
 id: course-home
 title: Learn AI Development
 description: A practical, developer-first course to understand and leverage AI in day-to-day coding. Master LLMs, prompt engineering, AI agents, RAG, and more.
-keywords: [ai, llm, openai, anthropic, prompt engineering, tutorial, javascript, typescript]
+keywords:
+  [
+    ai,
+    llm,
+    openai,
+    anthropic,
+    prompt engineering,
+    tutorial,
+    javascript,
+    typescript,
+  ]
 ---
 
 # AI Know-How — Learn AI Development with Hands-On Exercises
@@ -115,7 +118,48 @@ keywords: [ai, llm, openai, anthropic, prompt engineering, tutorial, javascript,
 Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
 
 ## 📚 Course Structure
-... (identical to README from here down, including blocks and footer)
+
+The repository is organized to provide a seamless learning experience:
+
+- **Theory & Exercises** — Core concepts and detailed explanations of how AI models work. The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
+- **[Solutions (GitHub)](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/)** — Complete, optimal solutions with step-by-step explanations for all exercises.
+- **[Developer Tools (GitHub)](https://github.com/cmartineztdl/ai-knowhow/tree/main/tools/)** — Reusable CLI utility scripts for interacting with AI models.
+
+## 🗺️ Course Blocks
+
+### Available Now
+
+<!-- FOR EACH BLOCK THAT HAS CONTENT (docs/block-XX/ exists): -->
+
+- 📖 **[Block {N}: {Block Title}](./docs/block-{NN}/)** — {One-line description from the outline.}
+
+<!-- END FOR EACH -->
+
+### Coming Soon
+
+<!-- FOR EACH BLOCK WITHOUT CONTENT: -->
+
+- **Block {N}: {Block Title}** — {One-line description}
+
+<!-- END FOR EACH -->
+
+## 🗺️ Learning Path
+
+Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the path that interests you most. Blocks 0–2 are sequential prerequisites; after that, explore in parallel depending on your goals.
+
+> See the **[Full Course Outline](./docs/COURSE_OUTLINE)** for topic details and the recommended dependency graph.
+
+## 🏷️ Topics
+
+`ai` · `llm` · `openai` · `anthropic` · `prompt-engineering` · `ai-agents` · `rag` · `machine-learning` · `course` · `tutorial` · `javascript` · `typescript`
+
+---
+
+## ❤️ Support
+
+If you found this material helpful or learned something new, consider supporting my work!
+
+[**☕ Buy me a coffee**](https://buymeacoffee.com/cmartineztdl)
 ```
 
 ### Template Rules
@@ -126,7 +170,7 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 - **Available Now vs Coming Soon**: Only list a block under "Available Now" if `docs/block-XX/` exists. All other blocks go under "Coming Soon".
 - **Topics section**: These match the GitHub "Topics" tags. Include them in the README as plain text so they are indexed by search engines even if the user hasn't set them on the GitHub repo settings.
 - **Support section**: Always preserved at the bottom.
-- **No hard line breaks**: Never hard-wrap prose paragraphs at a fixed column width. Write each paragraph as a single line and let Markdown renderers handle wrapping. Hard breaks cause awkward rendering on narrow screens.
+- **No hard line breaks**: Never hard-wrap prose paragraphs at a fixed column width. Write each paragraph as a single line and let Markdown renderers handle wrapping.
 
 ## Idempotency
 
@@ -146,7 +190,7 @@ This skill **overwrites the entire file** on every run, so it is inherently idem
 
 ## GitHub Repo Settings Reminder
 
-After running this skill, **remind the user** to also update these settings in the GitHub repo UI (these cannot be automated via file changes):
+After running this skill, **remind the user** to also update these settings in the GitHub repo UI:
 
 1. **Description**: _"A practical, developer-first course on AI development: LLMs, prompt engineering, agents, RAG, and more — with exercises and solutions in TypeScript."_
 2. **Topics**: `ai`, `llm`, `openai`, `anthropic`, `prompt-engineering`, `ai-agents`, `rag`, `machine-learning`, `course`, `tutorial`, `javascript`, `typescript`

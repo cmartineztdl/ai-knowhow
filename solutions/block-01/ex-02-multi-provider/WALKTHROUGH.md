@@ -58,5 +58,5 @@ Anthropic returns `content[]` with typed blocks — filter for `type: "text"` an
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Anthropic API](../../../docs/block-01/02-anthropic-api.md)
-- 🏋️ [Exercise](../../../exercises/block-01/ex-02-multi-provider/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-01/ex-02-multi-provider/)

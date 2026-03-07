@@ -20,5 +20,5 @@ Build a parameter configuration system that selects the right inference paramete
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Inference Parameters](../../../docs/block-00/05-inference-parameters.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-04-inference-params/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-00/ex-04-inference-params/WALKTHROUGH.md)

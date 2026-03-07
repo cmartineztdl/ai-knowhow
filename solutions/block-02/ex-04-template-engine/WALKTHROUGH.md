@@ -50,5 +50,5 @@ Fix each function independently — regex, merge order, and truthiness check.
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Prompt Templates & Variables](../../../docs/block-02/04-prompt-templates-and-variables.md)
-- 🏋️ [Exercise](../../../exercises/block-02/ex-04-template-engine/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-02/ex-04-template-engine/)

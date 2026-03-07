@@ -20,5 +20,5 @@ Build a cost estimation utility that calculates API costs based on token counts 
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Token Counting & Pricing](../../../docs/block-01/04-token-counting-and-pricing.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-01/ex-04-cost-estimator/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-01/ex-04-cost-estimator/WALKTHROUGH.md)

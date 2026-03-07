@@ -49,5 +49,5 @@ return { ...defaults, ...overrides };
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Inference Parameters](../../../docs/block-00/05-inference-parameters.md)
-- 🏋️ [Exercise](../../../exercises/block-00/ex-04-inference-params/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-00/ex-04-inference-params/)

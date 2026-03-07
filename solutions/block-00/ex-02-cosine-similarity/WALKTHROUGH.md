@@ -70,5 +70,5 @@ return bestIndex;
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.md)
-- 🏋️ [Exercise](../../../exercises/block-00/ex-02-cosine-similarity/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-00/ex-02-cosine-similarity/)

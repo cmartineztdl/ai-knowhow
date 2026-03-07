@@ -19,5 +19,5 @@ Build a function that constructs a properly formatted Chat Completions request f
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: OpenAI API](../../../docs/block-01/01-openai-api.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-01/ex-01-chat-completions/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-01/ex-01-chat-completions/WALKTHROUGH.md)

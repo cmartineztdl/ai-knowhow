@@ -57,5 +57,5 @@ if (candidates.length === 0) return null;
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Model Landscape](../../../docs/block-00/06-model-landscape.md)
-- 🏋️ [Exercise](../../../exercises/block-00/ex-05-model-selection/)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)
+- 🏋️ [Exercise](https://github.com/cmartineztdl/ai-knowhow/tree/main/exercises/block-00/ex-05-model-selection/)

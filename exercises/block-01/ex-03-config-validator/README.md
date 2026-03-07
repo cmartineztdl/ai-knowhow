@@ -20,5 +20,5 @@ Build a configuration validator that checks for required API keys, validates the
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: Authentication & Key Management](../../../docs/block-01/03-authentication-and-key-management.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-01/ex-03-config-validator/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-01/ex-03-config-validator/WALKTHROUGH.md)

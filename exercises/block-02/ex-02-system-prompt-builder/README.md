@@ -19,5 +19,5 @@ Build a function that assembles system prompts from structured components: ident
 
 ## 🧭 Related Materials
 
-- 📖 [Theory: System vs User vs Assistant Roles](../../../docs/block-02/02-system-vs-user-vs-assistant-roles.md)
-- ✅ [Solution & Walkthrough](../../../solutions/block-02/ex-02-system-prompt-builder/WALKTHROUGH.md)
+- 📖 [Read the Theory](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)
+- ✅ [Solution & Walkthrough](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/block-02/ex-02-system-prompt-builder/WALKTHROUGH.md)
