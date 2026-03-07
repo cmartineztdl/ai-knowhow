@@ -74,6 +74,7 @@ Describe what the image should show in the alt text.
 - **Code**: All code examples in JavaScript/TypeScript with syntax highlighting
 - **Jargon**: Define technical terms on first use
 - **Analogies**: Use real-world analogies to explain abstract concepts
+- **No hard line breaks**: Never hard-wrap prose paragraphs at a fixed column width. Write each paragraph as a single line and let Markdown renderers handle wrapping.
 
 ## File Naming
 

@@ -107,6 +107,7 @@ export function functionName(param: Type): ReturnType {
 - **Comments**: Generous — explain what the function SHOULD do, not how
 - **Hints**: Progressive (first hint is vague, last hint is almost the answer)
 - **Test names**: Readable sentences (`it('should count tokens using BPE rules')`)
+- **No hard line breaks**: Never hard-wrap prose paragraphs at a fixed column width. Write each paragraph as a single line and let Markdown renderers handle wrapping.
 
 ## Quality Checklist
 

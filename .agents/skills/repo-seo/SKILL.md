@@ -38,15 +38,11 @@ Overwrite the root `README.md` using the template below. Replace placeholders wi
 > Master LLMs, prompt engineering, AI agents, RAG, and more — with theory, exercises, and reusable tools.
 > Stack: JavaScript / TypeScript · OpenAI · Anthropic
 
-Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a
-complete mental model of Large Language Models (LLMs) and how to effectively integrate them
-into modern applications. Learn everything from how transformers work under the hood to
-building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
+Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
 
 ## 📚 Course Structure
 
-The repository is organized to provide a seamless learning experience, starting with
-theory and culminating in hands-on code:
+The repository is organized to provide a seamless learning experience, starting with theory and culminating in hands-on code:
 
 - **[Theory & Concepts (`/docs`)](./docs/COURSE_OUTLINE.md)** — Core concepts and detailed explanations of how AI models work.
 - **[Coding Exercises (`/exercises`)](./exercises/)** — Practical challenges with intentional bugs for you to fix.
@@ -77,17 +73,13 @@ theory and culminating in hands-on code:
 
 ## 🗺️ Learning Path
 
-Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the path that
-interests you most. Blocks 0–2 are sequential prerequisites; after that, explore in
-parallel depending on your goals.
+Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the path that interests you most. Blocks 0–2 are sequential prerequisites; after that, explore in parallel depending on your goals.
 
-> See the **[Full Course Outline](./docs/COURSE_OUTLINE.md)** for topic details and the
-> recommended dependency graph.
+> See the **[Full Course Outline](./docs/COURSE_OUTLINE.md)** for topic details and the recommended dependency graph.
 
 ## 🏷️ Topics
 
-`ai` · `llm` · `openai` · `anthropic` · `prompt-engineering` · `ai-agents` · `rag` ·
-`machine-learning` · `course` · `tutorial` · `javascript` · `typescript`
+`ai` · `llm` · `openai` · `anthropic` · `prompt-engineering` · `ai-agents` · `rag` · `machine-learning` · `course` · `tutorial` · `javascript` · `typescript`
 
 ---
 
@@ -106,6 +98,7 @@ If you found this material helpful or learned something new, consider supporting
 - **Available Now vs Coming Soon**: Only list a block under "Available Now" if `docs/block-XX/` exists. All other blocks go under "Coming Soon".
 - **Topics section**: These match the GitHub "Topics" tags. Include them in the README as plain text so they are indexed by search engines even if the user hasn't set them on the GitHub repo settings.
 - **Support section**: Always preserved at the bottom.
+- **No hard line breaks**: Never hard-wrap prose paragraphs at a fixed column width. Write each paragraph as a single line and let Markdown renderers handle wrapping. Hard breaks cause awkward rendering on narrow screens.
 
 ## Idempotency
 

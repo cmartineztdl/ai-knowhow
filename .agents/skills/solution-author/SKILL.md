@@ -62,6 +62,7 @@ export function functionName(param: Type): ReturnType {
 - Use descriptive variable names
 - Prefer readability over cleverness
 - Follow TypeScript best practices (proper types, no `any`)
+- **No hard line breaks in Markdown**: Never hard-wrap prose paragraphs at a fixed column width. Write each paragraph as a single line and let Markdown renderers handle wrapping.
 
 ### Walkthrough Structure
 
