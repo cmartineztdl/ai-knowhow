@@ -16,7 +16,7 @@ Keep the root `README.md` optimized for GitHub repository search and discoverabi
 
 ## Output
 
-Overwrites `/README.md` (the repository root).
+Overwrites `/README.md` (the repository root) and `/src/pages/index.mdx` (the Docusaurus website homepage).
 
 ## Instructions
 
@@ -27,9 +27,11 @@ Overwrites `/README.md` (the repository root).
 
 ### 2. Regenerate README.md
 
-Overwrite the root `README.md` using the template below. Replace placeholders with real data.
+Overwrite the root `README.md` and `src/pages/index.mdx` using the templates below. Replace placeholders with real data.
 
-### README Template
+### 2a. GitHub README.md Template
+
+### 2a. GitHub README.md Template
 
 ```markdown
 # AI Know-How — Learn AI Development with Hands-On Exercises
@@ -40,14 +42,16 @@ Overwrite the root `README.md` using the template below. Replace placeholders wi
 
 Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
 
+> 🌐 **[Read the course online at the interactive Docusaurus website!](https://cmartineztdl.github.io/ai-knowhow/)**
+
 ## 📚 Course Structure
 
 The repository is organized to provide a seamless learning experience, starting with theory and culminating in hands-on code:
 
-- **[Theory & Concepts (`/docs`)](./docs/COURSE_OUTLINE.md)** — Core concepts and detailed explanations of how AI models work.
-- **[Coding Exercises (`/exercises`)](./exercises/)** — Practical challenges with intentional bugs for you to fix.
-- **[Solutions & Walkthroughs (`/solutions`)](./solutions/)** — Complete, optimal solutions with step-by-step explanations.
-- **[Developer Tools (`/tools`)](./tools/)** — Reusable CLI utility scripts for interacting with AI models.
+- **[Theory & Concepts (`/docs`)](/docs/COURSE_OUTLINE)** — Core concepts and detailed explanations of how AI models work.
+- **[Coding Exercises (`/exercises`)](pathname:///exercises/)** — Practical challenges with intentional bugs for you to fix.
+- **[Solutions & Walkthroughs (`/solutions`)](pathname:///solutions/)** — Complete, optimal solutions with step-by-step explanations.
+- **[Developer Tools (`/tools`)](pathname:///tools/)** — Reusable CLI utility scripts for interacting with AI models.
 
 ## 🗺️ Course Blocks
 
@@ -58,8 +62,8 @@ The repository is organized to provide a seamless learning experience, starting 
 - **Block {N}: {Block Title}**
   {One-line description from the outline.}
   - 📖 [Read the Theory](./docs/block-{NN}/)
-  - 💻 [Do the Exercises](./exercises/block-{NN}/)
-  - ✅ [View the Solutions](./solutions/block-{NN}/)
+  - 💻 [Do the Exercises](pathname:///exercises/block-{NN}/)
+  - ✅ [View the Solutions](pathname:///solutions/block-{NN}/)
 
 <!-- END FOR EACH -->
 
@@ -75,7 +79,7 @@ The repository is organized to provide a seamless learning experience, starting 
 
 Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the path that interests you most. Blocks 0–2 are sequential prerequisites; after that, explore in parallel depending on your goals.
 
-> See the **[Full Course Outline](./docs/COURSE_OUTLINE.md)** for topic details and the recommended dependency graph.
+> See the **[Full Course Outline](/docs/COURSE_OUTLINE)** for topic details and the recommended dependency graph.
 
 ## 🏷️ Topics
 
@@ -88,6 +92,30 @@ Start with **Block 0** (Foundations) and **Block 1** (APIs), then follow the pat
 If you found this material helpful or learned something new, consider supporting my work!
 
 [**☕ Buy me a coffee**](https://buymeacoffee.com/cmartineztdl)
+```
+
+### 2b. Docusaurus src/pages/index.mdx Template
+
+This is identical to the README template, but prepended with the Docusaurus SEO frontmatter block, and it does not need the website banner callout since the user is already on the website.
+
+```mdx
+---
+id: course-home
+title: Learn AI Development
+description: A practical, developer-first course to understand and leverage AI in day-to-day coding. Master LLMs, prompt engineering, AI agents, RAG, and more.
+keywords: [ai, llm, openai, anthropic, prompt engineering, tutorial, javascript, typescript]
+---
+
+# AI Know-How — Learn AI Development with Hands-On Exercises
+
+> A practical, developer-first course to understand and leverage AI in day-to-day coding.
+> Master LLMs, prompt engineering, AI agents, RAG, and more — with theory, exercises, and reusable tools.
+> Stack: JavaScript / TypeScript · OpenAI · Anthropic
+
+Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
+
+## 📚 Course Structure
+... (identical to README from here down, including blocks and footer)
 ```
 
 ### Template Rules
@@ -106,7 +134,9 @@ This skill **overwrites the entire file** on every run, so it is inherently idem
 
 ## SEO Checklist
 
-- [ ] `# H1` contains primary keywords (AI, Learn, Exercises)
+- [ ] `README.md` is updated
+- [ ] `src/pages/index.mdx` is updated
+- [ ] SEO Frontmatter in `index.mdx` perfectly matches the template
 - [ ] Opening blockquote includes secondary keywords (LLMs, prompt engineering, AI agents, RAG)
 - [ ] First paragraph reads naturally and includes search-friendly terms
 - [ ] All available blocks are listed with working links

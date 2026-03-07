@@ -163,7 +163,7 @@ For custom formats, parse them with simple string operations or regex. The key i
 
 ### Practice This
 
-- 🏋️ [Exercise: Enforce Structured Output](../../exercises/block-02/ex-03-structured-output/)
+- 🏋️ [Exercise: Enforce Structured Output](pathname:///exercises/block-02/ex-03-structured-output/)
 
 ### Continue Reading
 

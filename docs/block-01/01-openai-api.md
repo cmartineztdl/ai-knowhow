@@ -141,8 +141,8 @@ The model doesn't execute the function — it tells you _which_ function to call
 
 ### Practice This
 
-- 🏋️ [Exercise: Build a Chat Completions Client](../../exercises/block-01/ex-01-chat-completions/)
-- 🔧 [Tool: api-tester.ts](../../tools/api-tester.ts)
+- 🏋️ [Exercise: Build a Chat Completions Client](pathname:///exercises/block-01/ex-01-chat-completions/)
+- 🔧 [Tool: api-tester.ts](pathname:///tools/api-tester.ts)
 
 ### Continue Reading
 

@@ -12,21 +12,21 @@ Create visual aids (diagrams, architecture visuals, concept illustrations) that 
 ## Inputs
 
 - **Block number** (e.g., `0`, `1`, `2`)
-- Theory files from `/docs/block-XX/*.md` (must exist before invoking this skill)
+- Theory files from `/docs/block-XX/*.mdx` (must exist before invoking this skill)
 
 ## Output
 
 - Images saved to `/docs/block-XX/images/` as `.webp`
-- Theory `.md` files updated with embedded image references
+- Theory `.mdx` files updated with embedded image references
 
 ## Instructions
 
-1. **Scan** all `.md` files in `/docs/block-XX/` for:
+1. **Scan** all `.mdx` files in `/docs/block-XX/` for:
    - Existing `![description](images/...)` placeholders left by the theory-writer skill
    - Concepts that would benefit from a visual but don't have a placeholder yet
 2. **For each image needed**, use the `generate_image` tool with a detailed prompt.
 3. **Save** the generated image to `/docs/block-XX/images/<descriptive-name>.webp`
-4. **Update** the corresponding `.md` file to embed the image with proper alt text.
+4. **Update** the corresponding `.mdx` file to embed the image with proper alt text.
 
 ## Image Types & Prompt Guidelines
 

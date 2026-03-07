@@ -16,7 +16,7 @@ Generate clear, developer-friendly theory documents for a course block. Each top
 
 ## Output
 
-Files written to `/docs/block-XX/` — one `.md` per topic, plus a `README.md` table of contents.
+Files written to `/docs/block-XX/` — one `.mdx` per topic, plus a `README.md` table of contents.
 
 ## Instructions
 
@@ -25,12 +25,20 @@ Files written to `/docs/block-XX/` — one `.md` per topic, plus a `README.md` t
    - Block title and description
    - Numbered list linking to each topic file
    - Prerequisites (which blocks should be completed first)
-3. **For each topic**, create `/docs/block-XX/XX-topic-slug.md` following this structure:
+3. **For each topic**, create `/docs/block-XX/XX-topic-slug.mdx` following this structure:
 
 ### Document Structure
 
-```markdown
+```mdx
+---
+id: topic-slug
+title: Topic Title
+sidebar_position: 1
+---
+
 # Topic Title
+
+import InteractiveExercise from '@site/src/components/InteractiveExercise';
 
 > One-sentence summary of what the reader will learn.
 
@@ -60,6 +68,18 @@ Describe what the image should show in the alt text.
 ## Key Takeaways
 
 - Bullet list of 3–5 main points
+
+## 🧭 Navigation
+
+When integrating exercises, do NOT use simple markdown links. Instead, use the `InteractiveExercise` component:
+
+```mdx
+### Practice This
+
+Test your knowledge directly in the browser:
+
+<InteractiveExercise block="block-XX" exercise="ex-XX-name" />
+```
 
 ## Further Reading
 

@@ -138,7 +138,7 @@ This is why **guardrails** (covered in topic 05) matter: you can't rely on the s
 
 ### Practice This
 
-- 🏋️ [Exercise: Craft a System Prompt Builder](../../exercises/block-02/ex-02-system-prompt-builder/)
+- 🏋️ [Exercise: Craft a System Prompt Builder](pathname:///exercises/block-02/ex-02-system-prompt-builder/)
 
 ### Continue Reading
 

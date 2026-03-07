@@ -140,7 +140,7 @@ async function getApiKey(secretName: string): Promise<string> {
 
 ### Practice This
 
-- 🏋️ [Exercise: Validate API Configuration](../../exercises/block-01/ex-03-config-validator/)
+- 🏋️ [Exercise: Validate API Configuration](pathname:///exercises/block-01/ex-03-config-validator/)
 
 ### Continue Reading
 

@@ -146,7 +146,7 @@ Use this decision framework:
 
 ### Practice This
 
-- 🏋️ [Exercise: Model Selection Engine](../../exercises/block-00/ex-05-model-selection/)
+- 🏋️ [Exercise: Model Selection Engine](pathname:///exercises/block-00/ex-05-model-selection/)
 
 ### Continue Reading
 

@@ -141,8 +141,8 @@ const messages = [
 
 ### Practice This
 
-- 🏋️ [Exercise: Build a Prompt Strategy Selector](../../exercises/block-02/ex-01-prompt-strategies/)
-- 🔧 [Tool: prompt-tester.ts](../../tools/prompt-tester.ts)
+- 🏋️ [Exercise: Build a Prompt Strategy Selector](pathname:///exercises/block-02/ex-01-prompt-strategies/)
+- 🔧 [Tool: prompt-tester.ts](pathname:///tools/prompt-tester.ts)
 
 ### Continue Reading
 

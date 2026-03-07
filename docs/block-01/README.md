@@ -21,9 +21,3 @@ After completing this block you will be able to call the OpenAI and Anthropic AP
 
 ---
 
-## 🧭 Resources
-
-- 🏋️ [Exercises for this block](../../exercises/block-01/)
-- ✅ [Solutions for this block](../../solutions/block-01/)
-- 🔧 [Tools](../../tools/)
-- 📋 [Course Outline](../COURSE_OUTLINE.md)

@@ -21,9 +21,3 @@ After completing this block you will understand the core machinery behind every 
 
 ---
 
-## 🧭 Resources
-
-- 🏋️ [Exercises for this block](../../exercises/block-00/)
-- ✅ [Solutions for this block](../../solutions/block-00/)
-- 🔧 [Tools](../../tools/)
-- 📋 [Course Outline](../COURSE_OUTLINE.md)

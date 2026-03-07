@@ -148,8 +148,8 @@ Track these after each call to build your own cost monitoring — don't rely sol
 
 ### Practice This
 
-- 🏋️ [Exercise: Estimate API Costs](../../exercises/block-01/ex-04-cost-estimator/)
-- 🔧 [Tool: token-counter.ts](../../tools/token-counter.ts)
+- 🏋️ [Exercise: Estimate API Costs](pathname:///exercises/block-01/ex-04-cost-estimator/)
+- 🔧 [Tool: token-counter.ts](pathname:///tools/token-counter.ts)
 
 ### Continue Reading
 

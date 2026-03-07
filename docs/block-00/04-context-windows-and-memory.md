@@ -131,7 +131,7 @@ Research has shown that LLMs pay the most attention to tokens at the **beginning
 
 ### Practice This
 
-- 🏋️ [Exercise: Build a Context Window Manager](../../exercises/block-00/ex-03-context-window/)
+- 🏋️ [Exercise: Build a Context Window Manager](pathname:///exercises/block-00/ex-03-context-window/)
 
 ### Continue Reading
 

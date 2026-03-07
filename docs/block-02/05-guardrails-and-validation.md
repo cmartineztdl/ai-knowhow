@@ -241,7 +241,7 @@ async function getValidOutput<T>(
 
 ### Practice This
 
-- 🏋️ [Exercise: Implement Input Guardrails](../../exercises/block-02/ex-05-input-guardrails/)
+- 🏋️ [Exercise: Implement Input Guardrails](pathname:///exercises/block-02/ex-05-input-guardrails/)
 
 ### Continue Reading
 

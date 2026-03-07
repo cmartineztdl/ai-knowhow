@@ -162,7 +162,7 @@ Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as
 
 ### Practice This
 
-- 🏋️ [Exercise: Normalize Multi-Provider Responses](../../exercises/block-01/ex-02-multi-provider/)
+- 🏋️ [Exercise: Normalize Multi-Provider Responses](pathname:///exercises/block-01/ex-02-multi-provider/)
 
 ### Continue Reading
 

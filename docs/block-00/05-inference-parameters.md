@@ -147,7 +147,7 @@ const extraction = await openai.chat.completions.create({
 
 ### Practice This
 
-- 🏋️ [Exercise: Configure Inference Parameters](../../exercises/block-00/ex-04-inference-params/)
+- 🏋️ [Exercise: Configure Inference Parameters](pathname:///exercises/block-00/ex-04-inference-params/)
 
 ### Continue Reading
 

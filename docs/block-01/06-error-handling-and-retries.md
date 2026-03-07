@@ -217,7 +217,7 @@ This gives you: retry with backoff for transient errors → circuit break if fai
 
 ### Practice This
 
-- 🏋️ [Exercise: Implement Retry with Backoff](../../exercises/block-01/ex-05-retry-with-backoff/)
+- 🏋️ [Exercise: Implement Retry with Backoff](pathname:///exercises/block-01/ex-05-retry-with-backoff/)
 
 ### Continue Reading
 

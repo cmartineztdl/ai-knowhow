@@ -193,7 +193,7 @@ This approach enables non-developers to edit prompts, simplifies A/B testing, an
 
 ### Practice This
 
-- 🏋️ [Exercise: Build a Template Engine](../../exercises/block-02/ex-04-template-engine/)
+- 🏋️ [Exercise: Build a Template Engine](pathname:///exercises/block-02/ex-04-template-engine/)
 
 ### Continue Reading
 
