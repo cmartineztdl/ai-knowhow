@@ -146,4 +146,4 @@ async function getApiKey(secretName: string): Promise<string> {
 
 - ⬅️ Previous: [Anthropic API](02-anthropic-api.md)
 - ➡️ Next: [Token Counting & Pricing](04-token-counting-and-pricing.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

@@ -168,4 +168,4 @@ Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as
 
 - ⬅️ Previous: [OpenAI API](01-openai-api.md)
 - ➡️ Next: [Authentication & Key Management](03-authentication-and-key-management.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

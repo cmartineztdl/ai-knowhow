@@ -147,4 +147,4 @@ The model doesn't execute the function — it tells you _which_ function to call
 ### Continue Reading
 
 - ➡️ Next: [Anthropic API](02-anthropic-api.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

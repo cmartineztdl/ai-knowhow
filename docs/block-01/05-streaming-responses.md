@@ -154,4 +154,4 @@ On the frontend, use the `EventSource` API or `fetch` with a readable stream to 
 
 - ⬅️ Previous: [Token Counting & Pricing](04-token-counting-and-pricing.md)
 - ➡️ Next: [Error Handling & Retries](06-error-handling-and-retries.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

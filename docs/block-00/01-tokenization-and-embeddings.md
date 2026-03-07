@@ -111,4 +111,4 @@ function cosineSimilarity(a: number[], b: number[]): number {
 ### Continue Reading
 
 - ➡️ Next: [Transformer Architecture](02-transformer-architecture.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

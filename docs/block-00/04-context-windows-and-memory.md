@@ -137,4 +137,4 @@ Research has shown that LLMs pay the most attention to tokens at the **beginning
 
 - ⬅️ Previous: [Pre-training vs Fine-tuning](03-pre-training-vs-fine-tuning.md)
 - ➡️ Next: [Inference Parameters](05-inference-parameters.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

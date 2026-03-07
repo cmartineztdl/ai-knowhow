@@ -102,4 +102,4 @@ Modern LLMs stack dozens or hundreds of these blocks. GPT-4 is rumored to have 1
 
 - ⬅️ Previous: [Tokenization & Embeddings](01-tokenization-and-embeddings.md)
 - ➡️ Next: [Pre-training vs Fine-tuning](03-pre-training-vs-fine-tuning.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

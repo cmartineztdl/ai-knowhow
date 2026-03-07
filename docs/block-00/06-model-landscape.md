@@ -151,4 +151,4 @@ Use this decision framework:
 ### Continue Reading
 
 - ⬅️ Previous: [Inference Parameters](05-inference-parameters.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

@@ -23,7 +23,7 @@ Read `docs/COURSE_OUTLINE.md` and identify all topics for the target block numbe
 Use the **theory-writer** skill (`.agents/skills/theory-writer/SKILL.md`):
 
 - Read the skill instructions
-- Create `/docs/block-XX/index.md` and one file per topic
+- Create `/docs/block-XX/README.md` and one file per topic
 - Follow the document structure and writing style from the skill
 
 ### 3. Generate images

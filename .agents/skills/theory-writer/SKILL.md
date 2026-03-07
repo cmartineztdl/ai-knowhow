@@ -16,12 +16,12 @@ Generate clear, developer-friendly theory documents for a course block. Each top
 
 ## Output
 
-Files written to `/docs/block-XX/` — one `.md` per topic, plus an `index.md` table of contents.
+Files written to `/docs/block-XX/` — one `.md` per topic, plus a `README.md` table of contents.
 
 ## Instructions
 
 1. **Read** `docs/COURSE_OUTLINE.md` and extract all topics for the target block.
-2. **Create** `/docs/block-XX/index.md` with:
+2. **Create** `/docs/block-XX/README.md` with:
    - Block title and description
    - Numbered list linking to each topic file
    - Prerequisites (which blocks should be completed first)
@@ -84,7 +84,7 @@ Describe what the image should show in the alt text.
 ## Quality Checklist
 
 - [ ] Every topic from the outline has a corresponding file
-- [ ] `index.md` links to all topic files
+- [ ] `README.md` links to all topic files
 - [ ] Code examples are syntactically correct and runnable
 - [ ] Image placeholders have descriptive alt text
 - [ ] No placeholder/lorem text left behind

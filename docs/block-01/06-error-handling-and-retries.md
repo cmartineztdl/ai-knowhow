@@ -222,4 +222,4 @@ This gives you: retry with backoff for transient errors → circuit break if fai
 ### Continue Reading
 
 - ⬅️ Previous: [Streaming Responses](05-streaming-responses.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

@@ -153,4 +153,4 @@ const extraction = await openai.chat.completions.create({
 
 - ⬅️ Previous: [Context Windows & Memory](04-context-windows-and-memory.md)
 - ➡️ Next: [Model Landscape](06-model-landscape.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

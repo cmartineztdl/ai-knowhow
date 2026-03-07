@@ -155,4 +155,4 @@ Track these after each call to build your own cost monitoring — don't rely sol
 
 - ⬅️ Previous: [Authentication & Key Management](03-authentication-and-key-management.md)
 - ➡️ Next: [Streaming Responses](05-streaming-responses.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)

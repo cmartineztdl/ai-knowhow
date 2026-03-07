@@ -21,12 +21,12 @@ Currently available blocks:
 
 - **Block 0: Foundations — How LLMs Actually Work**
   Tokenization, Embeddings, Transformer Architectures, Context Windows, Inference Parameters, and the Model Landscape.
-  - 📖 [Read the Theory](./docs/block-00/index.md)
+  - 📖 [Read the Theory](./docs/block-00/)
   - 💻 [Do the Exercises](./exercises/block-00/)
 
 - **Block 1: Talking to Models — APIs & SDKs**
   OpenAI API, Anthropic API, Authentication & Key Management, Token Counting & Pricing, Streaming Responses, and Error Handling & Retries.
-  - 📖 [Read the Theory](./docs/block-01/index.md)
+  - 📖 [Read the Theory](./docs/block-01/)
   - 💻 [Do the Exercises](./exercises/block-01/)
 
 ---

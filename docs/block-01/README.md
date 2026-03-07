@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- [Block 0 — Foundations: How LLMs Actually Work](../block-00/index.md) — understanding tokens, models, and inference parameters
+- [Block 0 — Foundations: How LLMs Actually Work](../block-00/README.md) — understanding tokens, models, and inference parameters
 
 ## Topics
 

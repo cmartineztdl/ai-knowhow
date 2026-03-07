@@ -38,7 +38,7 @@ Topic: "Tokenization & Embeddings"
 
 **How to build the map:**
 
-1. Read `docs/block-XX/index.md` to get the ordered list of topics and their filenames
+1. Read `docs/block-XX/README.md` to get the ordered list of topics and their filenames
 2. Read `exercises/block-XX/README.md` to get exercise names and their topic associations
 3. Read `solutions/block-XX/README.md` to get solution names
 4. Read `tools/README.md` to find tools tagged with this block number
@@ -62,7 +62,7 @@ For each theory file (`docs/block-XX/XX-topic-slug.md`), **append** a navigation
 
 - ⬅️ Previous: (none — this is the first topic)
 - ➡️ Next: [Transformer Architecture](02-transformer-architecture.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)
 ```
 
 **Rules:**
@@ -74,7 +74,7 @@ For each theory file (`docs/block-XX/XX-topic-slug.md`), **append** a navigation
 
 ### 3. Add navigation to theory index
 
-For `docs/block-XX/index.md`, add a **Resources** section after the existing content:
+For `docs/block-XX/README.md`, add a **Resources** section after the existing content:
 
 ```markdown
 ---

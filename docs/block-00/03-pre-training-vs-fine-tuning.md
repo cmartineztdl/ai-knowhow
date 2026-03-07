@@ -105,4 +105,4 @@ You'll see models labeled "instruct" (e.g., GPT-3.5-turbo-instruct) or "chat" (m
 
 - ⬅️ Previous: [Transformer Architecture](02-transformer-architecture.md)
 - ➡️ Next: [Context Windows & Memory](04-context-windows-and-memory.md)
-- 📚 [Back to Block Index](index.md)
+- 📚 [Back to Block Index](README.md)
