@@ -63,7 +63,14 @@ npx vitest run --root solutions/block-XX
   - Every solution walkthrough links to its theory doc and exercise
   - All relative paths resolve to existing files
 
-### 5. Report
+### 5. Verify repository SEO
+
+- Confirm the root `README.md` lists the reviewed block with correct links
+- Verify all block links resolve to existing directories
+- Check that the README heading and description are keyword-rich
+- If the README is out of date, re-run the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`)
+
+### 6. Report
 
 Create a summary of findings:
 

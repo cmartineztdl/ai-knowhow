@@ -69,7 +69,14 @@ Use the **content-linker** skill (`.agents/skills/content-linker/SKILL.md`):
 - Add navigation sections to all theory docs, exercise READMEs, solution walkthroughs, and tools README
 - Verify all relative paths resolve to existing files
 
-### 8. Verify solutions
+### 8. Update repository SEO
+
+Use the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`):
+
+- Regenerate the root `README.md` to include the new block
+- Verify the README renders correctly in Markdown
+
+### 9. Verify solutions
 
 // turbo
 
@@ -79,7 +86,7 @@ npx vitest run --root solutions/block-XX
 
 All tests must pass. If any fail, fix the solution and re-run.
 
-### 9. Verify exercises fail
+### 10. Verify exercises fail
 
 // turbo
 
@@ -89,10 +96,10 @@ npx vitest run --root exercises/block-XX 2>&1 || true
 
 Confirm tests fail (this is expected — exercises are broken by design).
 
-### 10. Commit
+### 11. Commit
 
 ```bash
-git add docs/block-XX exercises/block-XX solutions/block-XX tools/
+git add docs/block-XX exercises/block-XX solutions/block-XX tools/ README.md
 git commit -m "Add theory, exercises, solutions, and tools for block block-XX"
 ```
 
