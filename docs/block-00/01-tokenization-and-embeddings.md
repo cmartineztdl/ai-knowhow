@@ -1,7 +1,5 @@
 # Tokenization & Embeddings
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > Learn how LLMs break text into tokens, then map them into numerical vectors that capture meaning.
 
 ## Introduction
@@ -103,20 +101,6 @@ function cosineSimilarity(a: number[], b: number[]): number {
 ---
 
 ## 🧭 Navigation
-
-### Practice This
-
-Try fixing the token counter and cosine similarity functions right in your browser! The tests should pass once you complete the exercise.
-
-#### Token Counter
-<InteractiveExercise block="block-00" exercise="ex-01-token-counter" />
-
-#### Cosine Similarity
-<InteractiveExercise block="block-00" exercise="ex-02-cosine-similarity" />
-
-- 🔧 [Tool: token-counter.ts](pathname:///tools/token-counter.ts)
-
-### Continue Reading
 
 - ➡️ Next: [Transformer Architecture](02-transformer-architecture.md)
 - 📚 [Back to Block Index](README.md)

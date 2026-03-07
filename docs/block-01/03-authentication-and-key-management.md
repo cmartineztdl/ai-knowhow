@@ -1,7 +1,5 @@
 # Authentication & Key Management
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > Learn how to securely manage API keys for LLM providers using environment variables, `.env` files, and secret rotation practices.
 
 ## Introduction
@@ -139,13 +137,6 @@ async function getApiKey(secretName: string): Promise<string> {
 ---
 
 ## 🧭 Navigation
-
-### Practice This
-
-#### Validate API Configuration
-<InteractiveExercise block="block-01" exercise="ex-03-config-validator" />
-
-### Continue Reading
 
 - ⬅️ Previous: [Anthropic API](02-anthropic-api.md)
 - ➡️ Next: [Token Counting & Pricing](04-token-counting-and-pricing.md)

@@ -7,7 +7,7 @@ description: Generates structured theory documentation in Markdown for a given c
 
 ## Purpose
 
-Generate clear, developer-friendly theory documents for a course block. Each topic from the `COURSE_OUTLINE.md` becomes a dedicated `.md` file.
+Generate clear, developer-friendly theory documents for a course block. Each topic from the `COURSE_OUTLINE.md` becomes a dedicated `.mdx` file.
 
 ## Inputs
 
@@ -38,8 +38,6 @@ sidebar_position: 1
 
 # Topic Title
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > One-sentence summary of what the reader will learn.
 
 ## Introduction
@@ -69,18 +67,6 @@ Describe what the image should show in the alt text.
 
 - Bullet list of 3–5 main points
 
-## 🧭 Navigation
-
-When integrating exercises, do NOT use simple markdown links. Instead, use the `InteractiveExercise` component:
-
-```mdx
-### Practice This
-
-Test your knowledge directly in the browser:
-
-<InteractiveExercise block="block-XX" exercise="ex-XX-name" />
-```
-
 ## Further Reading
 
 - Links to official docs, papers, or blog posts
@@ -98,7 +84,7 @@ Test your knowledge directly in the browser:
 
 ## File Naming
 
-- Use kebab-case: `01-tokenization-and-embeddings.md`
+- Use kebab-case: `01-tokenization-and-embeddings.mdx`
 - Number prefix for ordering: `01-`, `02-`, etc.
 - Topic slug derived from the topic name in the outline
 
@@ -109,4 +95,4 @@ Test your knowledge directly in the browser:
 - [ ] Code examples are syntactically correct and runnable
 - [ ] Image placeholders have descriptive alt text
 - [ ] No placeholder/lorem text left behind
-- [ ] _Cross-links to exercises and tools are added by the **content-linker** skill — do not add them manually_
+- [ ] _Cross-links to navigation are added by the **content-linker** skill — do not add them manually_

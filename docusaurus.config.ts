@@ -18,7 +18,7 @@ const config: Config = {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],
-  staticDirectories: ['static', 'exercises'],
+  staticDirectories: ['static'],
 
   // Set the production url of your site here
   url: 'https://cmartineztdl.github.io',

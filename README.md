@@ -1,7 +1,7 @@
-# AI Know-How — Learn AI Development with Hands-On Exercises
+# AI Know-How — Learn AI Development
 
 > A practical, developer-first course to understand and leverage AI in day-to-day coding.
-> Master LLMs, prompt engineering, AI agents, RAG, and more — with theory, exercises, and reusable tools.
+> Master LLMs, prompt engineering, AI agents, RAG, and more.
 > Stack: JavaScript / TypeScript · OpenAI · Anthropic
 
 Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
@@ -12,9 +12,7 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 
 The repository is organized to provide a seamless learning experience:
 
-- **Theory & Exercises** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/). The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
-- **[Solutions (`/solutions`)](./solutions/)** — Complete, optimal solutions with step-by-step explanations for all exercises.
-- **[Developer Tools (`/tools`)](./tools/)** — Reusable CLI utility scripts for interacting with AI models.
+- **Theory** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/).
 
 ## 🗺️ Course Blocks
 

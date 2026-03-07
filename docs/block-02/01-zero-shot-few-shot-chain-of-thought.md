@@ -1,7 +1,5 @@
 # Zero-Shot, Few-Shot, Chain-of-Thought
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > Learn the three foundational prompting strategies and when to reach for each one.
 
 ## Introduction
@@ -140,15 +138,6 @@ const messages = [
 ---
 
 ## 🧭 Navigation
-
-### Practice This
-
-#### Build a Prompt Strategy Selector
-<InteractiveExercise block="block-02" exercise="ex-01-prompt-strategies" />
-
-- 🔧 [Tool: prompt-tester.ts](pathname:///tools/prompt-tester.ts)
-
-### Continue Reading
 
 - ➡️ Next: [System vs User vs Assistant Roles](02-system-vs-user-vs-assistant-roles.md)
 - 📚 [Back to Block Index](README.md)

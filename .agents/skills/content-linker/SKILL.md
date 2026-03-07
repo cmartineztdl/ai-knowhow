@@ -1,107 +1,38 @@
 ---
 name: content-linker
-description: Cross-references theory, exercises, solutions, and tools so students can navigate between related content
+description: Cross-references theory documents so students can navigate between related content
 ---
 
 # Content Linker Skill
 
 ## Purpose
 
-Inject navigation sections into all course content files so students can jump seamlessly between theory, exercises, solutions, and tools. This skill runs **after** all other content-generation skills and is **idempotent** — running it again replaces existing navigation sections.
+Inject navigation sections into course content files so students can jump seamlessly between theory topics. This skill runs **after** the theory-writer skill and is **idempotent** — running it again replaces existing navigation sections.
 
 ## Inputs
 
 - **Block number** (e.g., `0`, `1`, `2`)
 - All content for the block must already exist:
   - `/docs/block-XX/*.mdx` (theory-writer)
-  - `/exercises/block-XX/` (exercise-creator)
-  - `/solutions/block-XX/` (solution-author)
-  - `/tools/` (tool-builder, if applicable)
 
 ## Output
 
-Updated markdown files across all four content directories with navigation sections appended or replaced.
+Updated markdown files with navigation sections appended or replaced.
 
 ## Instructions
 
-### 1. Build the content map
+### 1. Add navigation to theory docs
 
-Read the block content and build a mapping that connects each topic to its related resources:
-
-```
-Topic: "Tokenization & Embeddings"
-├── Theory:    docs/block-00/01-tokenization-and-embeddings.mdx
-├── Exercise:  exercises/block-00/ex-01-token-counter/
-├── Solution:  solutions/block-00/ex-01-token-counter/WALKTHROUGH.md
-└── Tool:      tools/token-counter.ts (if applicable)
-```
-
-**How to build the map:**
-
-1. Read `docs/block-XX/README.md` to get the ordered list of topics and their filenames
-2. Read `exercises/block-XX/README.md` to get exercise names and their topic associations
-3. Read `solutions/block-XX/README.md` to get solution names
-4. Read `tools/README.md` to find tools tagged with this block number
-5. Match exercises to topics by comparing the "Topic" column in the exercise table to the topic names from the theory index
-
-### 2. Add navigation to exercise READMEs
-
-For each exercise README (`exercises/block-XX/ex-*/README.md`), append:
+For each theory doc (`docs/block-XX/XX-topic-slug.mdx`), append a link to the previous and next topics if they exist, or back to the block outline.
 
 ```markdown
 ---
 
-## 🧭 Related Materials
+## 🧭 Navigation
 
-- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.mdx)
-- ✅ [Solution & Walkthrough](../../../solutions/block-00/ex-01-token-counter/WALKTHROUGH.md)
-```
-
-For the block-level `exercises/block-XX/README.md`, append:
-
-```markdown
----
-
-## 🧭 Related Materials
-
-- 📖 [Theory docs for this block](../../docs/block-00/)
-- ✅ [Solutions for this block](../../solutions/block-00/)
-- 📋 [Course Outline](../../docs/COURSE_OUTLINE.md)
-```
-
-### 5. Add navigation to solution walkthroughs
-
-For each `solutions/block-XX/ex-*/WALKTHROUGH.md`, append:
-
-```markdown
----
-
-## 🧭 Related Materials
-
-- 📖 [Theory: Tokenization & Embeddings](../../../docs/block-00/01-tokenization-and-embeddings.mdx)
-- 🏋️ [Exercise](../../../exercises/block-00/ex-01-token-counter/)
-```
-
-For the block-level `solutions/block-XX/README.md`, append:
-
-```markdown
----
-
-## 🧭 Related Materials
-
-- 📖 [Theory docs for this block](../../docs/block-00/)
-- 🏋️ [Exercises for this block](../../exercises/block-00/)
-- 📋 [Course Outline](../../docs/COURSE_OUTLINE.md)
-```
-
-### 4. Update tools README
-
-For each tool in `tools/README.md` that is tagged with this block, add a "Related theory" column or update the description to include a link:
-
-```markdown
-| Tool                                 | Description                       | Block | Related Theory                                                                  |
-| ------------------------------------ | --------------------------------- | ----- | ------------------------------------------------------------------------------- |
-| [token-counter.ts](token-counter.ts) | Estimate token count and API cost | 0     | [Tokenization & Embeddings](../docs/block-00/01-tokenization-and-embeddings.mdx) |
+- ⬅️ Previous: [Previous Topic Title](01-previous-topic.mdx) (if applicable)
+- ➡️ Next: [Next Topic Title](03-next-topic.mdx) (if applicable)
+- 📋 [Back to Block Outline](README.md)
 ```
 
 ## Idempotency
@@ -114,23 +45,8 @@ All navigation sections start with `---` followed by `## 🧭`. When re-running 
 
 This ensures the skill can be run multiple times without duplicating content.
 
-## Relative Path Reference
-
-All links must use **relative paths** so they work in GitHub, local editors, and static site generators. Use `../` notation based on the file's location.
-
-| From                                        | To                                          | Example relative path                                            |
-| ------------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------- |
-| `docs/block-00/01-*.mdx`            | `exercises/block-00/ex-01-*/`               | `../../exercises/block-00/ex-01-token-counter/`                  |
-| `docs/block-00/01-*.mdx`            | `tools/token-counter.ts`                    | `../../tools/token-counter.ts`                                   |
-| `exercises/block-00/ex-01-*/README.md`      | `docs/block-00/01-*.mdx`            | `../../../docs/block-00/01-tokenization-and-embeddings.mdx` |
-| `exercises/block-00/ex-01-*/README.md`      | `solutions/block-00/ex-01-*/WALKTHROUGH.md` | `../../../solutions/block-00/ex-01-token-counter/WALKTHROUGH.md` |
-| `solutions/block-00/ex-01-*/WALKTHROUGH.md` | `docs/block-00/01-*.mdx`            | `../../../docs/block-00/01-tokenization-and-embeddings.mdx` |
-| `tools/README.md`                           | `docs/block-00/01-*.mdx`            | `../docs/block-00/01-tokenization-and-embeddings.mdx`       |
-
 ## Quality Checklist
 
-- [ ] Every exercise README links back to its theory doc and its solution
-- [ ] Every solution walkthrough links back to its theory doc and exercise
-- [ ] Tools README links to related theory docs
+- [ ] Every theory doc links to the previous and next topics
 - [ ] All relative paths are correct and resolve to existing files
 - [ ] Navigation sections are idempotent (running twice produces the same result)

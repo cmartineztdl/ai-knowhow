@@ -35,72 +35,26 @@ Use the **image-generator** skill (`.agents/skills/image-generator/SKILL.md`):
 - Save to `/docs/block-XX/images/`
 - Update markdown files with embedded image references
 
-### 4. Generate exercises
-
-Use the **exercise-creator** skill (`.agents/skills/exercise-creator/SKILL.md`):
-
-- Read the theory docs for context
-- Create `/exercises/block-XX/` with Vitest-based exercises
-- Ensure tests FAIL out of the box
-- Create `vitest.config.ts` and exercise READMEs
-
-### 5. Generate solutions
-
-Use the **solution-author** skill (`.agents/skills/solution-author/SKILL.md`):
-
-- Read the exercises
-- Create `/solutions/block-XX/` with working implementations
-- Write WALKTHROUGH.md for each exercise
-- Copy test files from exercises
-
-### 6. Generate tools (if applicable)
-
-Use the **tool-builder** skill (`.agents/skills/tool-builder/SKILL.md`):
-
-- Only if the block has relevant tool ideas (see tool ideas table in the skill)
-- Create utility scripts in `/tools/`
-- Update `/tools/README.md`
-
-### 7. Cross-link content
+### 4. Cross-link content
 
 Use the **content-linker** skill (`.agents/skills/content-linker/SKILL.md`):
 
-- Build the content map for the block (topic → exercise → solution → tool)
-- Add navigation sections to all theory docs, exercise READMEs, solution walkthroughs, and tools README
+- Build the content map for the block
+- Add navigation sections to all theory docs
 - Verify all relative paths resolve to existing files
 
-### 8. Update repository SEO
+### 5. Update repository SEO
 
 Use the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`):
 
 - Regenerate the root `README.md` to include the new block
 - Verify the README renders correctly in Markdown
 
-### 9. Verify solutions
-
-// turbo
+### 6. Commit
 
 ```bash
-npx vitest run --root solutions/block-XX
-```
-
-All tests must pass. If any fail, fix the solution and re-run.
-
-### 10. Verify exercises fail
-
-// turbo
-
-```bash
-npx vitest run --root exercises/block-XX 2>&1 || true
-```
-
-Confirm tests fail (this is expected — exercises are broken by design).
-
-### 11. Commit
-
-```bash
-git add docs/block-XX exercises/block-XX solutions/block-XX tools/ README.md
-git commit -m "Add theory, exercises, solutions, and tools for block block-XX"
+git add docs/block-XX README.md
+git commit -m "Add theory docs for block block-XX"
 ```
 
 Replace `XX` with the actual block number.

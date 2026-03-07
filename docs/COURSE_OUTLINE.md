@@ -155,27 +155,6 @@ Responsible AI usage in production.
 
 ---
 
-## Block 10 — The Playground
-
-This block IS the repo itself. Each previous block will include:
-
-- **`/docs/block-XX/`** — Theory and explanations in Markdown
-- **`/exercises/block-XX/`** — Code with intentional bugs or gaps to fill
-- **`/solutions/block-XX/`** — Working solutions (branches or files)
-- **`/tools/`** — Reusable utility scripts created along the way
-
-### Playground projects
-
-| Project                | Blocks applied |
-| ---------------------- | -------------- |
-| CLI chatbot            | 1, 2           |
-| Cost dashboard         | 1, 3           |
-| Tool-calling assistant | 4, 5           |
-| RAG over your own docs | 6              |
-| Custom code review bot | 7, 8           |
-| Secure AI proxy        | 3, 9           |
-
----
 
 ## Suggested Learning Path
 

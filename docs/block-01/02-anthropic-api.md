@@ -1,7 +1,5 @@
 # Anthropic API
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > Learn how to interact with Claude models via the Anthropic Messages API, shape behavior with system prompts, and use tool calling.
 
 ## Introduction
@@ -161,13 +159,6 @@ Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as
 ---
 
 ## 🧭 Navigation
-
-### Practice This
-
-#### Normalize Multi-Provider Responses
-<InteractiveExercise block="block-01" exercise="ex-02-multi-provider" />
-
-### Continue Reading
 
 - ⬅️ Previous: [OpenAI API](01-openai-api.md)
 - ➡️ Next: [Authentication & Key Management](03-authentication-and-key-management.md)

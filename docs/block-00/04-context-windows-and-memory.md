@@ -129,12 +129,6 @@ Research has shown that LLMs pay the most attention to tokens at the **beginning
 
 ## 🧭 Navigation
 
-### Practice This
-
-- 🏋️ [Exercise: Build a Context Window Manager](pathname:///exercises/block-00/ex-03-context-window/)
-
-### Continue Reading
-
 - ⬅️ Previous: [Pre-training vs Fine-tuning](03-pre-training-vs-fine-tuning.md)
 - ➡️ Next: [Inference Parameters](05-inference-parameters.md)
 - 📚 [Back to Block Index](README.md)

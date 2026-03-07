@@ -1,7 +1,5 @@
 # Token Counting & Pricing
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > Learn how to count tokens before calling APIs and estimate costs to keep your AI spending predictable.
 
 ## Introduction
@@ -147,15 +145,6 @@ Track these after each call to build your own cost monitoring — don't rely sol
 ---
 
 ## 🧭 Navigation
-
-### Practice This
-
-#### Estimate API Costs
-<InteractiveExercise block="block-01" exercise="ex-04-cost-estimator" />
-
-- 🔧 [Tool: token-counter.ts](pathname:///tools/token-counter.ts)
-
-### Continue Reading
 
 - ⬅️ Previous: [Authentication & Key Management](03-authentication-and-key-management.md)
 - ➡️ Next: [Streaming Responses](05-streaming-responses.md)

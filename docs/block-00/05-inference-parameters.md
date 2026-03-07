@@ -145,12 +145,6 @@ const extraction = await openai.chat.completions.create({
 
 ## 🧭 Navigation
 
-### Practice This
-
-- 🏋️ [Exercise: Configure Inference Parameters](pathname:///exercises/block-00/ex-04-inference-params/)
-
-### Continue Reading
-
 - ⬅️ Previous: [Context Windows & Memory](04-context-windows-and-memory.md)
 - ➡️ Next: [Model Landscape](06-model-landscape.md)
 - 📚 [Back to Block Index](README.md)

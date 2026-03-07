@@ -144,11 +144,5 @@ Use this decision framework:
 
 ## 🧭 Navigation
 
-### Practice This
-
-- 🏋️ [Exercise: Model Selection Engine](pathname:///exercises/block-00/ex-05-model-selection/)
-
-### Continue Reading
-
 - ⬅️ Previous: [Inference Parameters](05-inference-parameters.md)
 - 📚 [Back to Block Index](README.md)

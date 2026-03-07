@@ -1,7 +1,5 @@
 # System vs User vs Assistant Roles
 
-import InteractiveExercise from '@site/src/components/InteractiveExercise';
-
 > Understand how message roles shape model behavior and how to design effective role architectures.
 
 ## Introduction
@@ -137,13 +135,6 @@ This is why **guardrails** (covered in topic 05) matter: you can't rely on the s
 ---
 
 ## 🧭 Navigation
-
-### Practice This
-
-#### Craft a System Prompt Builder
-<InteractiveExercise block="block-02" exercise="ex-02-system-prompt-builder" />
-
-### Continue Reading
 
 - ⬅️ Previous: [Zero-Shot, Few-Shot, Chain-of-Thought](01-zero-shot-few-shot-chain-of-thought.md)
 - ➡️ Next: [Output Formatting](03-output-formatting.md)
