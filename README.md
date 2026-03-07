@@ -4,7 +4,7 @@
 > Master LLMs, prompt engineering, AI agents, RAG, and more — with theory, exercises, and reusable tools.
 > Stack: JavaScript / TypeScript · OpenAI · Anthropic
 
-Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines. The course uses JavaScript/TypeScript and focuses on interacting with leading models from OpenAI, Anthropic, and other top-tier providers.
+Welcome to **AI Know-How**, a free, self-paced course designed to help developers build a complete mental model of Large Language Models (LLMs) and how to effectively integrate them into modern applications. Learn everything from how transformers work under the hood to building AI-powered apps, agents, and retrieval-augmented generation (RAG) pipelines.
 
 ## 📚 Course Structure
 
@@ -20,20 +20,25 @@ The repository is organized to provide a seamless learning experience, starting 
 ### Available Now
 
 - **Block 0: Foundations — How LLMs Actually Work**
-  Tokenization, Embeddings, Transformer Architectures, Context Windows, Inference Parameters, and the Model Landscape.
+  Before using AI tools effectively you need a mental model of what is happening under the hood.
   - 📖 [Read the Theory](./docs/block-00/)
   - 💻 [Do the Exercises](./exercises/block-00/)
   - ✅ [View the Solutions](./solutions/block-00/)
 
 - **Block 1: Talking to Models — APIs & SDKs**
-  OpenAI API, Anthropic API, Authentication & Key Management, Token Counting & Pricing, Streaming Responses, and Error Handling & Retries.
+  Hands-on interaction with LLM APIs from JavaScript/TypeScript.
   - 📖 [Read the Theory](./docs/block-01/)
   - 💻 [Do the Exercises](./exercises/block-01/)
   - ✅ [View the Solutions](./solutions/block-01/)
 
+- **Block 2: Prompt Engineering**
+  The art and science of getting the output you actually want.
+  - 📖 [Read the Theory](./docs/block-02/)
+  - 💻 [Do the Exercises](./exercises/block-02/)
+  - ✅ [View the Solutions](./solutions/block-02/)
+
 ### Coming Soon
 
-- **Block 2: Prompt Engineering** — The art and science of getting the output you actually want.
 - **Block 3: Cost Optimization** — AI can get expensive fast. This block focuses on keeping it under control.
 - **Block 4: Function Calling & Tool Use** — Giving LLMs the ability to interact with the outside world.
 - **Block 5: Agents** — Autonomous systems that plan, act, and iterate toward a goal.
