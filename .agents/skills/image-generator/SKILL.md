@@ -1,6 +1,6 @@
 ---
 name: image-generator
-description: Generates explanatory diagrams and illustrations for theory documents
+description: Generates explanatory diagrams and illustrations for content documents
 ---
 
 # Image Generator Skill
@@ -12,12 +12,12 @@ Create visual aids (diagrams, architecture visuals, concept illustrations) that 
 ## Inputs
 
 - **Block number** (e.g., `0`, `1`, `2`)
-- Theory files from `/docs/block-XX/*.mdx` (must exist before invoking this skill)
+- Content files from `/docs/block-XX/*.mdx` (must exist before invoking this skill)
 
 ## Output
 
 - Images saved to `/docs/block-XX/images/` as `.webp`
-- Theory `.mdx` files updated with embedded image references
+- Content `.mdx` files updated with embedded image references
 
 ## Instructions
 

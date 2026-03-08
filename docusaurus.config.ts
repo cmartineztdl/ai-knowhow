@@ -74,7 +74,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Theory',
+          label: 'Content',
         },
         {
           href: 'https://github.com/cmartineztdl/ai-knowhow',
@@ -90,7 +90,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Theory',
+              label: 'Content',
               to: '/docs/COURSE_OUTLINE',
             },
           ],
@@ -101,6 +101,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/cmartineztdl/ai-knowhow',
+            },
+            {
+              label: '☕ Buy Me a Coffee',
+              href: 'https://buymeacoffee.com/cmartineztdl',
             },
           ],
         },

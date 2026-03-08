@@ -12,7 +12,7 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 
 The repository is organized to provide a seamless learning experience:
 
-- **Theory** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/).
+- **Content** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/).
 
 ## 🗺️ Course Blocks
 

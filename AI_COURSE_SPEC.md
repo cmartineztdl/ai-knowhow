@@ -5,4 +5,4 @@
 
 ## Desired Output Structure:
 
-1. /docs: Theory in Markdown.
+1. /docs: Content in Markdown.

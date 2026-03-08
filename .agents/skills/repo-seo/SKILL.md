@@ -46,7 +46,7 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 
 The repository is organized to provide a seamless learning experience:
 
-- **Theory & Exercises** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/). The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
+- **Content & Exercises** — Core concepts and detailed explanations of how AI models work are available on the [course website](https://cmartineztdl.github.io/ai-knowhow/). The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
 - **[Solutions (`/solutions`)](./solutions/)** — Complete, optimal solutions with step-by-step explanations for all exercises.
 - **[Developer Tools (`/tools`)](./tools/)** — Reusable CLI utility scripts for interacting with AI models.
 
@@ -121,7 +121,7 @@ Welcome to **AI Know-How**, a free, self-paced course designed to help developer
 
 The repository is organized to provide a seamless learning experience:
 
-- **Theory & Exercises** — Core concepts and detailed explanations of how AI models work. The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
+- **Content & Exercises** — Core concepts and detailed explanations of how AI models work. The coding exercises are **embedded directly** in the theory pages so you can run them in your browser!
 - **[Solutions (GitHub)](https://github.com/cmartineztdl/ai-knowhow/tree/main/solutions/)** — Complete, optimal solutions with step-by-step explanations for all exercises.
 - **[Developer Tools (GitHub)](https://github.com/cmartineztdl/ai-knowhow/tree/main/tools/)** — Reusable CLI utility scripts for interacting with AI models.
 

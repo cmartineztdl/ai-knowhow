@@ -17,7 +17,7 @@ End-to-end content generation for a single course block. Invoke with `/generate-
 
 Read `docs/COURSE_OUTLINE.md` and identify all topics for the target block number. Note the topic names and key concepts.
 
-### 2. Generate theory docs
+### 2. Generate content docs
 
 // turbo
 Use the **theory-writer** skill (`.agents/skills/theory-writer/SKILL.md`):
@@ -30,7 +30,7 @@ Use the **theory-writer** skill (`.agents/skills/theory-writer/SKILL.md`):
 
 Use the **image-generator** skill (`.agents/skills/image-generator/SKILL.md`):
 
-- Scan the theory docs for image placeholders and complex concepts
+- Scan the content docs for image placeholders and complex concepts
 - Generate images using the `generate_image` tool
 - Save to `/docs/block-XX/images/`
 - Update markdown files with embedded image references
@@ -48,7 +48,7 @@ Use the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`):
 
 ```bash
 git add docs/block-XX README.md
-git commit -m "Add theory docs for block block-XX"
+git commit -m "Add content docs for block block-XX"
 ```
 
 Replace `XX` with the actual block number.

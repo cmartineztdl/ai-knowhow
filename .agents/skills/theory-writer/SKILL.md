@@ -1,13 +1,13 @@
 ---
 name: theory-writer
-description: Generates structured theory documentation in Markdown for a given course block
+description: Generates structured content documentation in Markdown for a given course block
 ---
 
-# Theory Writer Skill
+# Content Writer Skill
 
 ## Purpose
 
-Generate clear, developer-friendly theory documents for a course block. Each topic from the `COURSE_OUTLINE.md` becomes a dedicated `.mdx` file.
+Generate clear, developer-friendly content documents for a course block. Each topic from the `COURSE_OUTLINE.md` becomes a dedicated `.mdx` file.
 
 ## Inputs
 
