@@ -140,9 +140,3 @@ Use this decision framework:
 - [Ollama — Run open-source models locally](https://ollama.ai)
 - [Chatbot Arena Leaderboard — LMSYS](https://chat.lmsys.org/?leaderboard)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Inference Parameters](05-inference-parameters.md)
-- 📚 [Back to Block Index](README.md)

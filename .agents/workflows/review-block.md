@@ -20,11 +20,7 @@ Quality assurance pass over a completed block. Invoke with `/review-block` and s
 - Ensure image references are valid and images exist
 - Flag any technical inaccuracies or unclear explanations
 
-### 2. Cross-reference
 
-- Verify **content-linker** navigation sections exist (`.agents/skills/content-linker/SKILL.md`):
-  - Every theory doc has Previous/Next links
-  - All relative paths resolve to existing files
 
 ### 3. Verify repository SEO
 

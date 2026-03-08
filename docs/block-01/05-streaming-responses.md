@@ -146,12 +146,3 @@ On the frontend, use the `EventSource` API or `fetch` with a readable stream to 
 - [MDN — Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
 - [Vercel AI SDK — Streaming](https://sdk.vercel.ai/docs/ai-sdk-core/generating-text#streamtext)
 
----
-
-## 🧭 Navigation
-
-### Continue Reading
-
-- ⬅️ Previous: [Token Counting & Pricing](04-token-counting-and-pricing.md)
-- ➡️ Next: [Error Handling & Retries](06-error-handling-and-retries.md)
-- 📚 [Back to Block Index](README.md)

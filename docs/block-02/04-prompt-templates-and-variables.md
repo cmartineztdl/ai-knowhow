@@ -187,10 +187,3 @@ This approach enables non-developers to edit prompts, simplifies A/B testing, an
 - [Mustache — Logic-less Templates](https://mustache.github.io/)
 - [OpenAI Cookbook — Prompt Management](https://cookbook.openai.com/)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Output Formatting](03-output-formatting.md)
-- ➡️ Next: [Guardrails & Validation](05-guardrails-and-validation.md)
-- 📚 [Back to Block Index](README.md)

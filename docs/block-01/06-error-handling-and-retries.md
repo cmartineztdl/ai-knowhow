@@ -211,9 +211,3 @@ This gives you: retry with backoff for transient errors → circuit break if fai
 - [Exponential Backoff — AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/)
 - [Circuit Breaker Pattern — Martin Fowler](https://martinfowler.com/bliki/CircuitBreaker.html)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Streaming Responses](05-streaming-responses.md)
-- 📚 [Back to Block Index](README.md)

@@ -142,10 +142,3 @@ Track these after each call to build your own cost monitoring — don't rely sol
 - [tiktoken on npm](https://www.npmjs.com/package/tiktoken)
 - [OpenAI Tokenizer tool](https://platform.openai.com/tokenizer)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Authentication & Key Management](03-authentication-and-key-management.md)
-- ➡️ Next: [Streaming Responses](05-streaming-responses.md)
-- 📚 [Back to Block Index](README.md)

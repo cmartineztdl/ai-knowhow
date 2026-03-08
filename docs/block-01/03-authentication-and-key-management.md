@@ -134,10 +134,3 @@ async function getApiKey(secretName: string): Promise<string> {
 - [12-Factor App — Config](https://12factor.net/config)
 - [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Anthropic API](02-anthropic-api.md)
-- ➡️ Next: [Token Counting & Pricing](04-token-counting-and-pricing.md)
-- 📚 [Back to Block Index](README.md)

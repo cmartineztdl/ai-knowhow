@@ -235,10 +235,3 @@ async function getValidOutput<T>(
 - [Anthropic — Reducing Prompt Injection](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/mitigate-prompt-injections)
 - [Zod — TypeScript Schema Validation](https://zod.dev/)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Prompt Templates & Variables](04-prompt-templates-and-variables.md)
-- ➡️ Next: [Prompt Versioning](06-prompt-versioning.md)
-- 📚 [Back to Block Index](README.md)

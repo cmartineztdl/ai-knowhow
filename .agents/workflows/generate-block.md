@@ -35,13 +35,7 @@ Use the **image-generator** skill (`.agents/skills/image-generator/SKILL.md`):
 - Save to `/docs/block-XX/images/`
 - Update markdown files with embedded image references
 
-### 4. Cross-link content
 
-Use the **content-linker** skill (`.agents/skills/content-linker/SKILL.md`):
-
-- Build the content map for the block
-- Add navigation sections to all theory docs
-- Verify all relative paths resolve to existing files
 
 ### 5. Update repository SEO
 

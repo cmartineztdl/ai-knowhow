@@ -125,10 +125,3 @@ Research has shown that LLMs pay the most attention to tokens at the **beginning
 - [OpenAI — Managing tokens](https://platform.openai.com/docs/guides/rate-limits/managing-tokens)
 - [LangChain — Text splitters](https://js.langchain.com/docs/how_to/#text-splitters)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Pre-training vs Fine-tuning](03-pre-training-vs-fine-tuning.md)
-- ➡️ Next: [Inference Parameters](05-inference-parameters.md)
-- 📚 [Back to Block Index](README.md)

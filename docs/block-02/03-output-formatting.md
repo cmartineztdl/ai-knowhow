@@ -157,10 +157,3 @@ For custom formats, parse them with simple string operations or regex. The key i
 - [Zod — TypeScript Schema Validation](https://zod.dev/)
 - [Anthropic — Tool Use for Structured Output](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [System vs User vs Assistant Roles](02-system-vs-user-vs-assistant-roles.md)
-- ➡️ Next: [Prompt Templates & Variables](04-prompt-templates-and-variables.md)
-- 📚 [Back to Block Index](README.md)

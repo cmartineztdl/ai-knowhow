@@ -135,9 +135,3 @@ const messages = [
 - [Wei et al. — Chain-of-Thought Prompting (2022)](https://arxiv.org/abs/2201.11903)
 - [Brown et al. — Language Models are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165)
 
----
-
-## 🧭 Navigation
-
-- ➡️ Next: [System vs User vs Assistant Roles](02-system-vs-user-vs-assistant-roles.md)
-- 📚 [Back to Block Index](README.md)

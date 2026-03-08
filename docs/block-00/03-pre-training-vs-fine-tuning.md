@@ -97,12 +97,3 @@ You'll see models labeled "instruct" (e.g., GPT-3.5-turbo-instruct) or "chat" (m
 - [Meta — Llama 2 training process](https://arxiv.org/abs/2307.09288)
 - [Chip Huyen — RLHF explained](https://huyenchip.com/2023/05/02/rlhf.html)
 
----
-
-## 🧭 Navigation
-
-### Continue Reading
-
-- ⬅️ Previous: [Transformer Architecture](02-transformer-architecture.md)
-- ➡️ Next: [Context Windows & Memory](04-context-windows-and-memory.md)
-- 📚 [Back to Block Index](README.md)

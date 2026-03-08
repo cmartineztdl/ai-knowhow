@@ -132,10 +132,3 @@ This is why **guardrails** (covered in topic 05) matter: you can't rely on the s
 - [Anthropic — System Prompts Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts)
 - [Anthropic — Prompt Engineering Interactive Tutorial](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [Zero-Shot, Few-Shot, Chain-of-Thought](01-zero-shot-few-shot-chain-of-thought.md)
-- ➡️ Next: [Output Formatting](03-output-formatting.md)
-- 📚 [Back to Block Index](README.md)

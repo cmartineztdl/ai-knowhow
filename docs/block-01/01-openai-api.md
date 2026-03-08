@@ -135,9 +135,3 @@ The model doesn't execute the function — it tells you _which_ function to call
 - [OpenAI SDK for TypeScript/JavaScript](https://github.com/openai/openai-node)
 - [OpenAI Cookbook](https://cookbook.openai.com/)
 
----
-
-## 🧭 Navigation
-
-- ➡️ Next: [Anthropic API](02-anthropic-api.md)
-- 📚 [Back to Block Index](README.md)

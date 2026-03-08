@@ -98,9 +98,3 @@ function cosineSimilarity(a: number[], b: number[]): number {
 - [Original BPE paper — Sennrich et al. 2016](https://arxiv.org/abs/1508.07909)
 - [OpenAI Embedding guide](https://platform.openai.com/docs/guides/embeddings)
 
----
-
-## 🧭 Navigation
-
-- ➡️ Next: [Transformer Architecture](02-transformer-architecture.md)
-- 📚 [Back to Block Index](README.md)

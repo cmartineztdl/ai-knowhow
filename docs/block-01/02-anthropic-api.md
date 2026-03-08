@@ -156,10 +156,3 @@ Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as
 - [Anthropic SDK for TypeScript](https://github.com/anthropics/anthropic-sdk-typescript)
 - [Claude Model Comparison](https://docs.anthropic.com/en/docs/about-claude/models)
 
----
-
-## 🧭 Navigation
-
-- ⬅️ Previous: [OpenAI API](01-openai-api.md)
-- ➡️ Next: [Authentication & Key Management](03-authentication-and-key-management.md)
-- 📚 [Back to Block Index](README.md)

@@ -222,11 +222,3 @@ Follow semantic versioning for prompts:
 - [Anthropic — Empirical Performance Evaluation](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/be-clear-and-direct)
 - [PromptLayer — Prompt Version Control](https://promptlayer.com/)
 
----
-
-## 🧭 Navigation
-
-### Continue Reading
-
-- ⬅️ Previous: [Guardrails & Validation](05-guardrails-and-validation.md)
-- 📚 [Back to Block Index](README.md)
