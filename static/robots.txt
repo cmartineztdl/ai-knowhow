@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cmartineztdl.github.io/ai-knowhow/sitemap.xml
