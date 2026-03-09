@@ -37,6 +37,14 @@ Use the **image-generator** skill (`.agents/skills/image-generator/SKILL.md`):
 
 
 
+### 4. Create document SEO metadata
+
+Use the **docs-seo** skill (`.agents/skills/docs-seo/SKILL.md`):
+
+- Read the skill instructions
+- Scan the newly generated `.md` files in `/docs/block-XX/`
+- Inject the appropriate SEO frontmatter (title, description, keywords) for each file
+
 ### 5. Update repository SEO
 
 Use the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`):

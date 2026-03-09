@@ -22,6 +22,11 @@ Quality assurance pass over a completed block. Invoke with `/review-block` and s
 
 
 
+### 2. Verify document SEO
+
+- Check all `.md` files in `/docs/block-XX/` for existing SEO frontmatter (title, description, keywords)
+- If frontmatter is missing, inaccurate, or missing target keywords like "course" and "free", re-run the **docs-seo** skill (`.agents/skills/docs-seo/SKILL.md`) on the block's files
+
 ### 3. Verify repository SEO
 
 - Confirm the root `README.md` lists the reviewed block with correct links
