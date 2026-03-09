@@ -1,0 +1,181 @@
+.container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.quizTitle {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+.questionBlock {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: var(--ifm-global-radius);
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  transition: all 0.2s ease-in-out;
+}
+
+.correctQuestion {
+  border-color: var(--ifm-color-success);
+}
+
+.wrongQuestion {
+  border-color: var(--ifm-color-danger);
+}
+
+.questionText {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.optionButton {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: var(--ifm-global-radius);
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--ifm-font-color-base);
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.optionButton:hover:not(:disabled) {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-primary);
+}
+
+.optionButton.selected {
+  background-color: var(--ifm-color-primary-lightest);
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-darkest);
+}
+
+.optionButton.correct {
+  background-color: var(--ifm-color-success-contrast-background);
+  border-color: var(--ifm-color-success);
+  color: var(--ifm-color-success-dark);
+}
+
+.optionButton.wrong {
+  background-color: var(--ifm-color-danger-contrast-background);
+  border-color: var(--ifm-color-danger);
+  color: var(--ifm-color-danger-dark);
+}
+
+.optionButton:disabled {
+  cursor: default;
+  opacity: 0.8;
+}
+
+.explanationBox {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: var(--ifm-global-radius);
+  font-size: 0.95rem;
+}
+
+.explanationCorrect {
+  background-color: var(--ifm-color-success-contrast-background);
+  color: var(--ifm-color-success-dark);
+  border-left: 4px solid var(--ifm-color-success);
+}
+
+.explanationWrong {
+  background-color: var(--ifm-color-danger-contrast-background);
+  color: var(--ifm-color-danger-dark);
+  border-left: 4px solid var(--ifm-color-danger);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.submitButton, .resetButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--ifm-global-radius);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: none;
+  font-family: inherit;
+}
+
+.submitButton {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: var(--ifm-color-emphasis-400);
+}
+
+.resetButton {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+  margin-left: 1rem;
+}
+
+.resetButton:hover {
+  background-color: var(--ifm-color-emphasis-300);
+}
+
+.resultsArea {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.scoreText {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Dark mode overrides */
+html[data-theme='dark'] .optionButton.selected {
+  background-color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-color-primary-lightest);
+}
+
+html[data-theme='dark'] .optionButton.correct {
+  color: var(--ifm-color-success-lightest);
+}
+
+html[data-theme='dark'] .optionButton.wrong {
+  color: var(--ifm-color-danger-lightest);
+}
+
+html[data-theme='dark'] .explanationCorrect {
+  color: var(--ifm-color-success-lightest);
+}
+
+html[data-theme='dark'] .explanationWrong {
+  color: var(--ifm-color-danger-lightest);
+}
