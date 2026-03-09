@@ -45,18 +45,26 @@ Use the **docs-seo** skill (`.agents/skills/docs-seo/SKILL.md`):
 - Scan the newly generated `.md` files in `/docs/block-XX/`
 - Inject the appropriate SEO frontmatter (title, description, keywords) for each file
 
-### 5. Update repository SEO
+### 5. Generate interactive quizzes
+
+Use the **quiz-generator** skill (`.agents/skills/quiz-generator/SKILL.md`):
+
+- Read the skill instructions
+- Scan the newly generated `.md` files in `/docs/block-XX/`
+- For each file, generate 5 questions and append the Quiz component to the end
+
+### 6. Update repository SEO
 
 Use the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`):
 
 - Regenerate the root `README.md` to include the new block
 - Verify the README renders correctly in Markdown
 
-### 6. Commit
+### 7. Commit
 
 ```bash
 git add docs/block-XX README.md
-git commit -m "Add content docs for block block-XX"
+git commit -m "Add content docs, images, SEO, and quizzes for block block-XX"
 ```
 
 Replace `XX` with the actual block number.
