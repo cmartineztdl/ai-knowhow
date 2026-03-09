@@ -82,7 +82,7 @@ const config: Config = {
       title: "AI Know-How",
       logo: {
         alt: "AI Know-How Logo",
-        src: "img/logo.svg",
+        src: "img/logo.webp",
       },
       items: [
         {
