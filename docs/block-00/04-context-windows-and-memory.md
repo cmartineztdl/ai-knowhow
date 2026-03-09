@@ -1,3 +1,9 @@
+---
+title: Context Windows & Memory
+description: Learn how LLMs handle limited memory, why token limits matter, and discover strategies for working within context windows.
+keywords: [ai, artificial intelligence, course, free, context window, token limits, chunking, memory, sliding window]
+---
+
 # Context Windows & Memory
 
 > Learn how LLMs handle limited memory, why token limits matter, and strategies for working within them.

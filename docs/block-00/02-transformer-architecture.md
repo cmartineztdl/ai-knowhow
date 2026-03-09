@@ -1,3 +1,9 @@
+---
+title: Transformer Architecture
+description: Understand the core architecture that powers every modern LLM - the Transformer, including self-attention and positional encoding.
+keywords: [ai, artificial intelligence, course, free, transformer, attention, self-attention, multi-head attention, neural networks]
+---
+
 # Transformer Architecture
 
 > Understand the core architecture that powers every modern LLM — the Transformer.

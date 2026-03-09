@@ -1,3 +1,9 @@
+---
+title: Streaming Responses
+description: Learn how to stream LLM responses in real-time using Server-Sent Events (SSE) to give users instant feedback.
+keywords: [ai, artificial intelligence, course, free, streaming, sse, server-sent events, real-time, openai, anthropic]
+---
+
 # Streaming Responses
 
 > Learn how to stream LLM responses in real time using Server-Sent Events (SSE), giving users instant feedback instead of waiting for complete responses.

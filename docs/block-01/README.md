@@ -1,3 +1,9 @@
+---
+title: Talking to Models - APIs & SDKs
+description: Get hands-on with LLM APIs from JavaScript/TypeScript. Learn to interact with OpenAI and Anthropic APIs, manage keys, and handle streaming.
+keywords: [ai, artificial intelligence, course, free, api, sdk, openai, anthropic, typescript, javascript, llm]
+---
+
 # Block 1 — Talking to Models: APIs & SDKs
 
 > Hands-on interaction with LLM APIs from JavaScript/TypeScript.

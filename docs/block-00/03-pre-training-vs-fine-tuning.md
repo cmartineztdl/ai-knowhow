@@ -1,3 +1,9 @@
+---
+title: Pre-training vs Fine-tuning
+description: Understand how base models are created, refined to follow instructions, and where RLHF fits into the training pipeline.
+keywords: [ai, artificial intelligence, course, free, pre-training, fine-tuning, rlhf, supervised fine tuning, base model, instruct model]
+---
+
 # Pre-training vs Fine-tuning
 
 > Understand how base models are created and then refined to follow instructions, and where RLHF fits into the picture.

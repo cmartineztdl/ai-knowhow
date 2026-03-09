@@ -1,3 +1,9 @@
+---
+title: Anthropic API Guide
+description: Learn how to interact with Claude models via the Anthropic Messages API, shape behavior with system prompts, and use tool calling.
+keywords: [ai, artificial intelligence, course, free, anthropic, api, claude, messages api, system prompts, tool use, typescript]
+---
+
 # Anthropic API
 
 > Learn how to interact with Claude models via the Anthropic Messages API, shape behavior with system prompts, and use tool calling.

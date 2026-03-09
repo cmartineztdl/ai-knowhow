@@ -1,3 +1,9 @@
+---
+title: Inference Parameters
+description: Learn how to control Large Language Model output by tuning temperature, top-p, frequency penalty, and stop sequences.
+keywords: [ai, artificial intelligence, course, free, inference parameters, temperature, top-p, frequency penalty, stop sequences, llm]
+---
+
 # Inference Parameters
 
 > Learn how to control LLM output by tuning temperature, top-p, frequency penalty, and stop sequences.

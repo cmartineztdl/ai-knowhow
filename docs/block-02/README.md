@@ -1,3 +1,9 @@
+---
+title: Prompt Engineering
+description: Learn the art and science of getting the output you want from AI models. Master zero-shot, few-shot, and chain-of-thought prompting strategies.
+keywords: [ai, artificial intelligence, course, free, prompt engineering, zero-shot, few-shot, chain-of-thought, system prompt, llm]
+---
+
 # Block 2 — Prompt Engineering
 
 > The art and science of getting the output you actually want.

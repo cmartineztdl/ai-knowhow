@@ -1,3 +1,9 @@
+---
+title: Prompt Versioning
+description: Track, compare, and iterate on AI prompts like you version your code. Learn how to build a prompt registry and run A/B tests.
+keywords: [ai, artificial intelligence, course, free, prompt versioning, prompt management, a/b testing, evaluating prompts, llm ops]
+---
+
 # Prompt Versioning
 
 > Track, compare, and iterate on prompts like you version your code.

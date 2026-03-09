@@ -1,3 +1,9 @@
+---
+title: Error Handling & Retries
+description: Learn how to build resilient LLM integrations with proper error handling, exponential backoff, and circuit breaker patterns.
+keywords: [ai, artificial intelligence, course, free, error handling, retries, exponential backoff, circuit breaker, rate limits, resilience]
+---
+
 # Error Handling & Retries
 
 > Learn how to build resilient LLM integrations with proper error handling, exponential backoff, and circuit breaker patterns.

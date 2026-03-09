@@ -1,3 +1,9 @@
+---
+title: Output Formatting
+description: Learn how to get LLMs to return structured, machine-readable output every time using JSON mode and response schemas.
+keywords: [ai, artificial intelligence, course, free, output formatting, json mode, structured output, schema validation, zod]
+---
+
 # Output Formatting
 
 > Learn how to get LLMs to return structured, machine-readable output every time.

@@ -1,3 +1,9 @@
+---
+title: LLM Model Landscape
+description: Navigate the current LLM ecosystem. Discover which models exist (OpenAI, Anthropic, Google, Open-Source), what they excel at, and how to choose.
+keywords: [ai, artificial intelligence, course, free, model landscape, openai, gpt, anthropic, claude, google, gemini, open-source, llama, mistral]
+---
+
 # Model Landscape
 
 > Navigate the current LLM ecosystem — which models exist, what they're good at, and how to choose.

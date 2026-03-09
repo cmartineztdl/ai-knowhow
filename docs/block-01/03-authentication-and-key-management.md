@@ -1,3 +1,9 @@
+---
+title: Authentication & Key Management
+description: Learn how to securely manage API keys for LLM providers using environment variables, .env files, and secret rotation practices.
+keywords: [ai, artificial intelligence, course, free, api keys, authentication, security, environment variables, dotenv, secret management]
+---
+
 # Authentication & Key Management
 
 > Learn how to securely manage API keys for LLM providers using environment variables, `.env` files, and secret rotation practices.

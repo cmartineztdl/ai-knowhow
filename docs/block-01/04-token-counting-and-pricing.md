@@ -1,3 +1,9 @@
+---
+title: Token Counting & Pricing
+description: Learn how to count tokens before calling APIs and estimate costs to keep your AI spending predictable.
+keywords: [ai, artificial intelligence, course, free, tokens, pricing, cost estimation, tiktoken, openai, anthropic]
+---
+
 # Token Counting & Pricing
 
 > Learn how to count tokens before calling APIs and estimate costs to keep your AI spending predictable.

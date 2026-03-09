@@ -1,3 +1,9 @@
+---
+title: AI Know-How Course Outline
+description: Discover the comprehensive AI training course for developers. Learn about LLMs, APIs, prompt engineering, RAG, and AI-powered dev tools.
+keywords: [ai, artificial intelligence, course, free, developer tools, prompt engineering, llm, rag, syllabus, curriculum]
+---
+
 # AI Know-How — Course Outline
 
 > A practical, developer-first course to understand and leverage AI in day-to-day coding.

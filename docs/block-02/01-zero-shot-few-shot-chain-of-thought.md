@@ -1,3 +1,9 @@
+---
+title: Prompting Strategies - Zero-Shot, Few-Shot, CoT
+description: Discover the three foundational prompting strategies (zero-shot, few-shot, and chain-of-thought) and learn when to apply each for optimal LLM results.
+keywords: [ai, artificial intelligence, course, free, prompt engineering, zero-shot, few-shot, chain-of-thought, cot, ai prompting]
+---
+
 # Zero-Shot, Few-Shot, Chain-of-Thought
 
 > Learn the three foundational prompting strategies and when to reach for each one.

@@ -1,3 +1,9 @@
+---
+title: System, User, and Assistant Roles
+description: Understand how message roles shape LLM behavior and learn how to design effective role architectures and system prompts.
+keywords: [ai, artificial intelligence, course, free, prompt engineering, system prompt, user role, assistant role, persona shaping, llm roles]
+---
+
 # System vs User vs Assistant Roles
 
 > Understand how message roles shape model behavior and how to design effective role architectures.

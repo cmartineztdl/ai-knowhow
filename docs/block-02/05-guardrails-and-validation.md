@@ -1,3 +1,9 @@
+---
+title: Guardrails & Validation
+description: Protect your AI application from bad inputs, unexpected outputs, and prompt injection attacks with proper guardrails and validation techniques.
+keywords: [ai, artificial intelligence, course, free, guardrails, validation, prompt injection, output validation, input sanitization, security]
+---
+
 # Guardrails & Validation
 
 > Protect your application from bad inputs, unexpected outputs, and prompt injection attacks.

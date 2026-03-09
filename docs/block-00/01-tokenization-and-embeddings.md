@@ -1,3 +1,9 @@
+---
+title: Tokenization & Embeddings
+description: Learn how LLMs break text into tokens and map them into numerical vectors that capture meaning.
+keywords: [ai, artificial intelligence, course, free, tokenization, embeddings, bpe, vector space, tiktoken]
+---
+
 # Tokenization & Embeddings
 
 > Learn how LLMs break text into tokens, then map them into numerical vectors that capture meaning.

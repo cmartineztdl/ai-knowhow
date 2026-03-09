@@ -1,3 +1,9 @@
+---
+title: Prompt Templates & Variables
+description: Build reusable, dynamic prompts that adapt to different inputs without rewriting the whole prompt. Learn template management and rendering.
+keywords: [ai, artificial intelligence, course, free, prompt templates, variables, prompt engineering, template engines, dynamic prompts]
+---
+
 # Prompt Templates & Variables
 
 > Build reusable, dynamic prompts that adapt to different inputs without rewriting the whole thing.

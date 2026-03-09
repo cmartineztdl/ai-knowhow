@@ -1,3 +1,9 @@
+---
+title: Foundations - How LLMs Actually Work
+description: Learn the fundamental concepts behind Large Language Models, including tokenization, embeddings, transformer architecture, and context windows.
+keywords: [ai, artificial intelligence, course, free, llm, foundations, tokenization, embeddings, transformer architecture, pre-training, fine-tuning]
+---
+
 # Block 0 — Foundations: How LLMs Actually Work
 
 > Before using AI tools effectively you need a mental model of what is happening under the hood.

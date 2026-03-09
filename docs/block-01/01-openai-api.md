@@ -1,3 +1,9 @@
+---
+title: OpenAI API Guide
+description: Learn how to call OpenAI's Chat Completions API from TypeScript, handle responses, and implement function calling.
+keywords: [ai, artificial intelligence, course, free, openai, api, chat completions, function calling, typescript, llm]
+---
+
 # OpenAI API
 
 > Learn how to call OpenAI's Chat Completions API from TypeScript, handle responses, and use function calling.
