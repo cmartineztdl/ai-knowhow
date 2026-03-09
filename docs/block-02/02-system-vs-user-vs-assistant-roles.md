@@ -4,6 +4,8 @@ description: Understand how message roles shape LLM behavior and learn how to de
 keywords: [ai, artificial intelligence, course, free, prompt engineering, system prompt, user role, assistant role, persona shaping, llm roles]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # System vs User vs Assistant Roles
 
 > Understand how message roles shape model behavior and how to design effective role architectures.
@@ -137,4 +139,67 @@ This is why **guardrails** (covered in topic 05) matter: you can't rely on the s
 - [OpenAI — System Messages Best Practices](https://platform.openai.com/docs/guides/prompt-engineering/strategy-write-clear-instructions)
 - [Anthropic — System Prompts Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts)
 - [Anthropic — Prompt Engineering Interactive Tutorial](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "Which message role is typically processed first and has the highest influence on setting the LLM's 'job description'?",
+      options: [
+        "user",
+        "assistant",
+        "system",
+        "admin"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "The system message sets the persona, rules, and constraints that govern how the model interprets all subsequent user and assistant messages."
+    },
+    {
+      text: "What are the four common components of a high-leverage system prompt?",
+      options: [
+        "Greeting, Question, Answer, Conclusion",
+        "Identity, Task, Rules, Output Format",
+        "Username, Password, SDK Version, API Key",
+        "Tokens, Temperature, Context, Model Name"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "A structured system prompt defines who the model is (Identity), what it must do (Task), what it must follow (Rules), and how it should respond (Format)."
+    },
+    {
+      text: "How does 'persona shaping' affect more than just the tone of a model's response?",
+      options: [
+        "It doesn't; it only changes the words used to sound more friendly or professional.",
+        "It changes what the model considers relevant, the depth of information provided, and the assumptions it makes about the audience.",
+        "It increases the number of concurrent requests the API can handle.",
+        "It bypasses the need for an API key."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "By adopting a specific persona (like a 'Senior Architect' vs. a 'Patient Mentor'), the model retrieves and prioritizes different types of specialized knowledge."
+    },
+    {
+      text: "What is 'pre-filling' or 'role priming' in the context of assistant messages?",
+      options: [
+        "Asking the model to prepare its thoughts before the user speaks.",
+        "Writing a partial assistant message yourself to force the model to continue in a specific format (like starting a JSON block).",
+        "Generating the entire conversation history automatically.",
+        "Updating the model's training data in real-time."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Because an LLM completes patterns, starting the assistant's response for it (e.g., '{\"result\":') effectively guarantees the rest of the output will follow that structure."
+    },
+    {
+      text: "In a well-designed model, which instructions generally take priority if there is a conflict between the system prompt and a user message?",
+      options: [
+        "The most recent user message always wipes out all previous rules.",
+        "The system prompt usually holds the strongest influence over core constraints and formatting.",
+        "The model flips a coin to decide.",
+        "The assistant's previous message has the final say."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "System prompts are designed to be the foundational instructions, though sophisticated user attempts to bypass them ('jailbreaking') may occasionally succeed if guardrails aren't in place."
+    }
+  ]}
+/>
+
 

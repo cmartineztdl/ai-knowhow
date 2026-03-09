@@ -4,6 +4,8 @@ description: Learn how to get LLMs to return structured, machine-readable output
 keywords: [ai, artificial intelligence, course, free, output formatting, json mode, structured output, schema validation, zod]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Output Formatting
 
 > Learn how to get LLMs to return structured, machine-readable output every time.
@@ -162,4 +164,67 @@ For custom formats, parse them with simple string operations or regex. The key i
 - [OpenAI — JSON Mode](https://platform.openai.com/docs/guides/text-generation/json-mode)
 - [Zod — TypeScript Schema Validation](https://zod.dev/)
 - [Anthropic — Tool Use for Structured Output](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is the primary difference between 'JSON mode' and 'Structured Outputs' in the OpenAI API?",
+      options: [
+        "JSON mode is faster, but Structured Outputs is cheaper.",
+        "JSON mode only guarantees valid JSON syntax, while Structured Outputs guarantees the output will match a specific JSON Schema exactly.",
+        "JSON mode is for images, while Structured Outputs is for text.",
+        "There is no difference; they are two names for the same feature."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "JSON mode ensures you don't get 'broken' JSON, but Structured Outputs (with `strict: true`) ensures the model includes every required field and follows every data type you've defined."
+    },
+    {
+      text: "Why is it still important to use a validation library like Zod even when using an API's built-in formatting features?",
+      options: [
+        "To make the model's response time shorter.",
+        "As a 'defense-in-depth' measure to ensure your application code has full type-safety and catches any unexpected edge cases.",
+        "Because Zod is required by the OpenAI SDK.",
+        "To translate the JSON into another language automatically."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Validation libraries provide a safe 'boundary' that protects your core business logic from potentially malformed or unexpected data coming from the model."
+    },
+    {
+      text: "How do you define the exact shape of the output using OpenAI's Structured Outputs?",
+      options: [
+        "By writing a long paragraph in the system prompt.",
+        "By providing a JSON Schema object in the `response_format` parameter.",
+        "By uploading a CSV file with examples.",
+        "You can't; the model chooses the shape itself."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Structured Outputs rely on standard JSON Schema definitions to specify fields, types, required properties, and constraints like enums."
+    },
+    {
+      text: "When API-level formatting features aren't available, what is the best strategy to get consistent JSON?",
+      options: [
+        "Use 'role priming' (assistant pre-filling) combined with few-shot examples and explicit instructions in the system prompt.",
+        "Just hope for the best and retry if it fails.",
+        "Tell the model you will fire it if it doesn't return JSON.",
+        "Ask the model to send the result via email instead."
+      ],
+      correctAnswerIndex: 0,
+      explanation: "A combination of a strong system prompt and starting the model's response (e.g., with '{') is the most reliable fallback strategy."
+    },
+    {
+      text: "What does the `strict: true` setting do in an OpenAI response schema?",
+      options: [
+        "It makes the model's tone more professional.",
+        "It forces the model to strictly follow the provided JSON Schema, treating any deviation as a failure at the model-generation level.",
+        "It prevents the model from using emojis.",
+        "It restricts the model to only using 100 tokens."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Strict mode ensures that the model's internal sampling is constrained to only generate tokens that are valid according to your specific logic and schema."
+    }
+  ]}
+/>
+
 

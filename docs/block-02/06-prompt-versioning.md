@@ -4,6 +4,8 @@ description: Track, compare, and iterate on AI prompts like you version your cod
 keywords: [ai, artificial intelligence, course, free, prompt versioning, prompt management, a/b testing, evaluating prompts, llm ops]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Prompt Versioning
 
 > Track, compare, and iterate on prompts like you version your code.
@@ -227,4 +229,66 @@ Follow semantic versioning for prompts:
 - [LangSmith — Prompt Management](https://smith.langchain.com/)
 - [Anthropic — Empirical Performance Evaluation](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/be-clear-and-direct)
 - [PromptLayer — Prompt Version Control](https://promptlayer.com/)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "Why is 'prompt versioning' considered a best practice for production AI apps?",
+      options: [
+        "It makes the model's vocabulary larger.",
+        "It allows you to track changes over time, perform A/B testing, and safely roll back if a new prompt version degrades performance.",
+        "It is required for the application to be deployed to the web.",
+        "It automatically reduces the cost of every API call."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Prompting is iterative. Versioning ensures that you can measure the impact of changes and maintain a 'known good' state for your application."
+    },
+    {
+      text: "What is a 'Prompt Management System' (or Prompt CMS)?",
+      options: [
+        "A type of database for storing user passwords.",
+        "A dedicated tool or platform for storing, versioning, and deploying prompts separately from application code.",
+        "A system for generating random prompts for brainstorming.",
+        "A plugin for Microsoft Word."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Prompt CMS tools help teams collaborate on prompts and deploy updates without needing a full code redeploy for the entire application."
+    },
+    {
+      text: "How does decoupling prompt versions from code deployments benefit the development cycle?",
+      options: [
+        "It makes the application's binary file smaller.",
+        "It allows prompt engineers and product managers to iterate on model behavior without waiting for a new software release.",
+        "It prevents the model from ever hallucinating.",
+        "It replaces the need for an API key."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "When prompts are hosted externally or in a CMS, you can 'hot-swap' a prompt version in production instantly if an issue is discovered."
+    },
+    {
+      text: "What is a 'golden dataset' in the context of prompt testing?",
+      options: [
+        "A dataset that is physically stored on gold-plated hard drives.",
+        "A set of high-quality, human-reviewed example inputs and their 'ideal' outputs used to benchmark the performance of new prompts.",
+        "A list of the most expensive tokens used by the model.",
+        "A collection of prompts used by large corporations."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Golden datasets are the 'ground truth' that you use to verify if a new version of a prompt is actually better (or worse) than the previous one."
+    },
+    {
+      text: "Why should you version your prompts alongside the specific model name and parameters (like temperature)?",
+      options: [
+        "Because models behave differently even with the same prompt, so a 'version' must include the entire environment to be reproducible.",
+        "It is just for organization and has no technical impact.",
+        "To make the YAML file look more professional.",
+        "Because models might be deleted by the provider at any time."
+      ],
+      correctAnswerIndex: 0,
+      explanation: "A prompt that works perfectly for GPT-4 might fail for Claude or Llama. A 'prompt version' is only meaningful when linked to a specific model configuration."
+    }
+  ]}
+/>
 

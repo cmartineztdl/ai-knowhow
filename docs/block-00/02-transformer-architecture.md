@@ -4,6 +4,8 @@ description: Understand the core architecture that powers every modern LLM - the
 keywords: [ai, artificial intelligence, course, free, transformer, attention, self-attention, multi-head attention, neural networks]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Transformer Architecture
 
 > Understand the core architecture that powers every modern LLM — the Transformer.

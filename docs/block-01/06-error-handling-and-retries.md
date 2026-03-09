@@ -4,6 +4,8 @@ description: Learn how to build resilient LLM integrations with proper error han
 keywords: [ai, artificial intelligence, course, free, error handling, retries, exponential backoff, circuit breaker, rate limits, resilience]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Error Handling & Retries
 
 > Learn how to build resilient LLM integrations with proper error handling, exponential backoff, and circuit breaker patterns.
@@ -216,4 +218,67 @@ This gives you: retry with backoff for transient errors → circuit break if fai
 - [Anthropic Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
 - [Exponential Backoff — AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/)
 - [Circuit Breaker Pattern — Martin Fowler](https://martinfowler.com/bliki/CircuitBreaker.html)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "Which of the following HTTP status codes indicates a 'transient' error that should be retried?",
+      options: [
+        "400 Bad Request",
+        "401 Unauthorized",
+        "429 Rate Limited",
+        "404 Not Found"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Retrying a 400 or 401 won't help because those usually indicate a code or configuration bug. A 429 means the server is temporarily overloaded and might respond correctly if you try again later."
+    },
+    {
+      text: "What is the primary purpose of 'exponential backoff' in retry logic?",
+      options: [
+        "To make the application run faster by skipping errors.",
+        "To progressively increase the wait time between retries, giving the server more time to recover from a high load.",
+        "To ensure that all retries are completed within 1 second.",
+        "To permanently block an API key if it fails more than 3 times."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "By waiting longer and longer between attempts, you reduce the immediate pressure on an overloaded server, increasing the likelihood that the next retry will succeed."
+    },
+    {
+      text: "In the context of retries, what is 'jitter'?",
+      options: [
+        "A bug that causes the server to shake.",
+        "A small, random amount of time added to the backoff delay to prevent many clients from retrying simultaneously.",
+        "A type of model hallucination where the text is repetitive.",
+        "A security protocol used to verify API requests."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Jitter prevents the 'thundering herd' problem, where multiple clients all resend their failed requests at the exact same moment, causing a new spike in traffic."
+    },
+    {
+      text: "How does a 'circuit breaker' pattern help protect your application?",
+      options: [
+        "It stops your app from making any network calls at all to save battery.",
+        "It temporarily stops attempting to call a failing service after a certain failure threshold is met, preventing wasted resources and long wait times.",
+        "It automatically upgrades your API plan if you run out of credits.",
+        "It encrypts your code to prevent unauthorized access."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "If a service is consistently down, a circuit breaker 'trips' and immediately returns an error for any further calls until a cooldown period has passed, sparing your system from useless waiting."
+    },
+    {
+      text: "Where can you often find information on how long to wait before retrying a 429 (Rate Limit) error?",
+      options: [
+        "In the model's system prompt.",
+        "In the 'Retry-After' HTTP header returned by the API.",
+        "By searching for the error code on StackOverflow.",
+        "You can't; it's always a mystery how long you must wait."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Most modern APIs include a 'Retry-After' header specifically to tell clients exactly how many seconds to wait before they are allowed to send another request."
+    }
+  ]}
+/>
+
 

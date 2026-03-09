@@ -4,6 +4,8 @@ description: Learn how to interact with Claude models via the Anthropic Messages
 keywords: [ai, artificial intelligence, course, free, anthropic, api, claude, messages api, system prompts, tool use, typescript]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Anthropic API
 
 > Learn how to interact with Claude models via the Anthropic Messages API, shape behavior with system prompts, and use tool calling.
@@ -161,4 +163,66 @@ Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as
 - [Anthropic Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
 - [Anthropic SDK for TypeScript](https://github.com/anthropics/anthropic-sdk-typescript)
 - [Claude Model Comparison](https://docs.anthropic.com/en/docs/about-claude/models)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "How does the placement of the 'system prompt' in the Anthropic Messages API differ from the OpenAI Chat Completions API?",
+      options: [
+        "Anthropic puts the system prompt inside the messages array with a special role.",
+        "Anthropic uses a separate top-level 'system' parameter instead of including it in the messages array.",
+        "Anthropic does not support system prompts at all.",
+        "Anthropic requires system prompts to be sent as a separate HTTP header."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "In the Anthropic SDK, the system prompt is a dedicated parameter at the top level of the request object, not a message role within the 'messages' array."
+    },
+    {
+      text: "Which parameter is strictly REQUIRED when making a request to the Anthropic Messages API?",
+      options: [
+        "temperature",
+        "stop_sequences",
+        "max_tokens",
+        "top_p"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Unlike some other providers that provide a default, Anthropic requires you to explicitly specify a 'max_tokens' value for every request."
+    },
+    {
+      text: "What restriction does Anthropic place on the order of messages in a conversation history?",
+      options: [
+        "There are no restrictions on message order.",
+        "Messages must always start and end with an assistant role.",
+        "Messages must strictly alternate between 'user' and 'assistant' roles.",
+        "All user messages must come before all assistant messages."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Anthropic's API enforces that the roles in the messages array must alternate: user, then assistant, then user, etc."
+    },
+    {
+      text: "What is Anthropic's term for 'Function Calling', and how are these calls returned?",
+      options: [
+        "They call it 'Smart Actions' and return them in a separate array.",
+        "They call it 'Tool Use' and return them as blocks within the same content array as text.",
+        "They call it 'External Plugins' and return them as a JSON-only response.",
+        "They call it 'Logic Blocks' and return them via a separate webhook."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Anthropic calls the feature 'tool use' and integrates the model's call directly into the response's content array as a block with `type: 'tool_use'`."
+    },
+    {
+      text: "What is a key benefit of learning multiple provider APIs like OpenAI and Anthropic?",
+      options: [
+        "It is required by law for AI developers.",
+        "It makes you provider-agnostic, allowing you to choose the best model for a specific task without being locked in.",
+        "It automatically reduces your API billing costs by 50%.",
+        "It allows you to combine models from different companies into a single neural network."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Mastering different APIs gives you the flexibility to switch models based on performance, cost, or specific features (like context window size) as your application's needs evolve."
+    }
+  ]}
+/>
 

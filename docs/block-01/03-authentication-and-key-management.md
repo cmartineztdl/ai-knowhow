@@ -4,6 +4,8 @@ description: Learn how to securely manage API keys for LLM providers using envir
 keywords: [ai, artificial intelligence, course, free, api keys, authentication, security, environment variables, dotenv, secret management]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Authentication & Key Management
 
 > Learn how to securely manage API keys for LLM providers using environment variables, `.env` files, and secret rotation practices.
@@ -139,4 +141,67 @@ async function getApiKey(secretName: string): Promise<string> {
 - [dotenv on npm](https://www.npmjs.com/package/dotenv)
 - [12-Factor App — Config](https://12factor.net/config)
 - [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is the 'golden rule' for managing API keys in your application?",
+      options: [
+        "Store them in a global variable for easy access.",
+        "Always encrypt them and store them in the database.",
+        "API keys should live in environment variables and never be in source code.",
+        "Commit them to GitHub so your teammates can use them immediately."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Hardcoding keys in source code leads to accidental leaks. Environment variables keep secrets separate from the codebase."
+    },
+    {
+      text: "Why is it critical to add your `.env` file to `.gitignore`?",
+      options: [
+        "To save disk space on the GitHub server.",
+        "To prevent your private API keys from being uploaded to public or shared repositories.",
+        "Because git doesn't support files that start with a dot.",
+        "To make the project build faster."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The `.env` file contains your actual secrets. Excluding it from version control ensures those secrets don't leak when you push your code."
+    },
+    {
+      text: "What is the purpose of a `.env.example` file?",
+      options: [
+        "It is a backup copy of your secrets in case you lose the .env file.",
+        "It provides a template with placeholder values so other developers know which environment variables are required.",
+        "It is where you store keys that are only for educational examples.",
+        "It is required by the Node.js runtime to execute code."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "An example file shows the structure of the required configuration without exposing the sensitive values themselves."
+    },
+    {
+      text: "How should you handle an API key if you suspect it has been leaked?",
+      options: [
+        "Change the name of the environment variable in your code.",
+        "Immediately revoke (delete) the old key and generate a new one.",
+        "Wait 24 hours to see if any unauthorized charges appear.",
+        "Nothing, most providers automatically detect and block leaks."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The only safe response to a leak is to invalidate the compromised key and replace it with a fresh one."
+    },
+    {
+      text: "In a production environment, what is a more secure alternative to using `.env` files?",
+      options: [
+        "Hardcoding the keys just for the production build.",
+        "Using a dedicated secrets manager (like AWS Secrets Manager or HashiCorp Vault).",
+        "Asking the user to type the key every time the server starts.",
+        "Storing the keys in the project's README."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Cloud-based secrets managers provide better security, audit logs, and easier rotation compared to simple flat files on a server."
+    }
+  ]}
+/>
+
 

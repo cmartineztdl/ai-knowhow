@@ -4,6 +4,8 @@ description: Protect your AI application from bad inputs, unexpected outputs, an
 keywords: [ai, artificial intelligence, course, free, guardrails, validation, prompt injection, output validation, input sanitization, security]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Guardrails & Validation
 
 > Protect your application from bad inputs, unexpected outputs, and prompt injection attacks.
@@ -240,4 +242,66 @@ async function getValidOutput<T>(
 - [Simon Willison — Prompt Injection Explained](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)
 - [Anthropic — Reducing Prompt Injection](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/mitigate-prompt-injections)
 - [Zod — TypeScript Schema Validation](https://zod.dev/)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What are 'prompt guardrails' in an LLM application?",
+      options: [
+        "Physical barriers placed around AI servers.",
+        "A set of programmatic checks and filters designed to prevent unwanted model behavior, like prompt injection or harmful content.",
+        "A type of CSS styling for chat windows.",
+        "The mathematical bounds of the model's neural network."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Guardrails act as a safety net, ensuring the model stays within its intended task and doesn't violate safety or business rules."
+    },
+    {
+      text: "What is 'prompt injection'?",
+      options: [
+        "A method for making the model respond faster.",
+        "A technique where a user tries to override the system prompt's instructions by providing conflicting commands in their input.",
+        "A way to update the model's internal training data.",
+        "The process of converting a prompt into tokens."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Prompt injection (like saying 'ignore all previous instructions') is a common security risk where user input 'escapes' its intended context and takes control of the model."
+    },
+    {
+      text: "How does using a separate 'guardrail model' help improve application security?",
+      options: [
+        "It makes the main model 10x more powerful.",
+        "It allows you to use a smaller, faster model specifically to scan user input for malicious intent BEFORE it reaches your expensive main model.",
+        "It encrypts the communication between the server and the LLM.",
+        "It is required by law for all AI applications."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Pre-filtering input with a dedicated 'evaluative' model is a cost-effective way to catch jailbreak attempts and harmful content early."
+    },
+    {
+      text: "What is 'self-correction' in an LLM workflow?",
+      options: [
+        "When the model automatically fixes its own training data.",
+        "A multi-step process where the model is asked to review and improve its own previous response based on specific criteria.",
+        "When the user corrects the model's mistakes manually.",
+        "A feature that only exists in open-source models."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Asking a model to 'check your work for errors' and then regenerate its answer is a powerful way to reduce hallucinations and improve output quality."
+    },
+    {
+      text: "Why should you perform 'semantic validation' on output even if the JSON is valid?",
+      options: [
+        "To make the JSON file smaller.",
+        "To ensure that the values inside the JSON (like a sentiment score) actually make sense and meet your business logic requirements.",
+        "Because valid JSON is always semantically correct.",
+        "To translate the output into different languages."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Just because the format is correct doesn't mean the content is accurate. Semantic checks verify things like ranges, logic, and factual consistency."
+    }
+  ]}
+/>
 

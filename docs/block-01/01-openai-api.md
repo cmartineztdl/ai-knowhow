@@ -4,6 +4,8 @@ description: Learn how to call OpenAI's Chat Completions API from TypeScript, ha
 keywords: [ai, artificial intelligence, course, free, openai, api, chat completions, function calling, typescript, llm]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # OpenAI API
 
 > Learn how to call OpenAI's Chat Completions API from TypeScript, handle responses, and use function calling.
@@ -140,4 +142,66 @@ The model doesn't execute the function — it tells you _which_ function to call
 - [OpenAI Function Calling Guide](https://platform.openai.com/docs/guides/function-calling)
 - [OpenAI SDK for TypeScript/JavaScript](https://github.com/openai/openai-node)
 - [OpenAI Cookbook](https://cookbook.openai.com/)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What are the three primary message roles used in the OpenAI Chat Completions API?",
+      options: [
+        "admin, user, bot",
+        "system, user, assistant",
+        "instruction, prompt, result",
+        "master, slave, observer"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The standard roles are 'system' (to set behavior), 'user' (for inputs), and 'assistant' (for model responses)."
+    },
+    {
+      text: "Where does the OpenAI SDK automatically look for your API key if it's not explicitly provided in the constructor?",
+      options: [
+        "A file named 'key.txt' in the root directory.",
+        "An environment variable named 'OPENAI_API_KEY'.",
+        "The project's package.json file.",
+        "Your browser's local storage."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "By convention, the OpenAI SDK is designed to automatically read the 'OPENAI_API_KEY' environment variable."
+    },
+    {
+      text: "In a multi-turn conversation, how is context maintained between the user and the model?",
+      options: [
+        "The model automatically remembers every previous user from its training data.",
+        "You must accumulate the entire message history (role and content) in an array and send it with every new request.",
+        "The API returns a 'session_id' that you pass back to resume the chat.",
+        "Context is managed locally on the user's device and never sent to the API."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "LLMs are stateless; to have 'memory' of a conversation, you must resend the accumulated list of past messages in the 'messages' array of each new request."
+    },
+    {
+      text: "What is the primary purpose of 'Function Calling' (Tools) in the OpenAI API?",
+      options: [
+        "To allow the model to execute arbitrary JavaScript code on your server.",
+        "To let the model return structured JSON instead of just text, indicating which local function you should run with specific arguments.",
+        "To increase the speed of text generation by 50%.",
+        "To encrypt the conversation history using RSA keys."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Function calling allows the model to output structured arguments that your code can then use to call external tools or APIs, effectively bridging the gap between natural language and structured data."
+    },
+    {
+      text: "When extracting the content of a model's response from the API result object, where is it typically located?",
+      options: [
+        "response.data",
+        "response.choices[0].message.content",
+        "response.text",
+        "response.completions[0]"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The standard response structure nests the text inside the first choice's message content: `response.choices[0].message.content`."
+    }
+  ]}
+/>
 

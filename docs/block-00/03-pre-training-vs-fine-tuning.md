@@ -4,6 +4,8 @@ description: Understand how base models are created, refined to follow instructi
 keywords: [ai, artificial intelligence, course, free, pre-training, fine-tuning, rlhf, supervised fine tuning, base model, instruct model]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Pre-training vs Fine-tuning
 
 > Understand how base models are created and then refined to follow instructions, and where RLHF fits into the picture.
@@ -102,4 +104,66 @@ You'll see models labeled "instruct" (e.g., GPT-3.5-turbo-instruct) or "chat" (m
 - [Anthropic — Constitutional AI (RLHF alternative)](https://www.anthropic.com/research/constitutional-ai)
 - [Meta — Llama 2 training process](https://arxiv.org/abs/2307.09288)
 - [Chip Huyen — RLHF explained](https://huyenchip.com/2023/05/02/rlhf.html)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is the primary objective of a model during the pre-training phase?",
+      options: [
+        "To learn how to answer user questions politely.",
+        "To predict the next token based on given text.",
+        "To sort large datasets into smaller, manageable chunks.",
+        "To execute complex code written in multiple languages."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "During pre-training, the model processes massive amounts of text with the simple objective of predicting the next token, which helps it absorb language patterns and facts."
+    },
+    {
+      text: "Why is a 'base model' generally not used on its own for conversational AI?",
+      options: [
+        "It tends to act like an autocomplete engine rather than answering questions directly.",
+        "It requires more memory to run than fine-tuned models.",
+        "It can only understand one language.",
+        "It is incapable of generating any coherent text."
+      ],
+      correctAnswerIndex: 0,
+      explanation: "A base model simply predicts the next token based on patterns it learned, meaning it might just continue your text pattern (like adding more questions) rather than following instructions."
+    },
+    {
+      text: "What is the purpose of Supervised Fine-Tuning (SFT)?",
+      options: [
+        "To teach the model basic grammar and vocabulary.",
+        "To connect the model to the internet for real-time facts.",
+        "To teach the model how to follow instructions and generate helpful responses.",
+        "To increase the model's overall parameter count."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "SFT uses curated (prompt, response) pairs to train the base model to treat inputs as instructions and respond appropriately, for example, directly answering a question."
+    },
+    {
+      text: "In the RLHF process, what is the role of the reward model?",
+      options: [
+        "To generate new training data automatically.",
+        "To score the LLM's responses based on human preferences for helpfulness and safety.",
+        "To pay human annotators for their work.",
+        "To filter out malicious users from accessing the API."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Following human ranking of responses, a reward model learns to predict those rankings. This reward model is then used to fine-tune the LLM to produce higher-scoring (better aligned) outputs."
+    },
+    {
+      text: "What is the primary difference between 'instruct' models and 'chat' models?",
+      options: [
+        "Instruct models are for coding, while chat models are for creative writing.",
+        "Instruct models only use pre-training, while chat models use RLHF.",
+        "Instruct models are tuned for single-turn interactions, while chat models are tuned for multi-turn conversations.",
+        "There is no difference; the terms are used interchangeably."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Instruct models are typically fine-tuned to handle a single instruction at a time, whereas chat models are explicitly tuned on conversations with alternating system, user, and assistant roles."
+    }
+  ]}
+/>
 

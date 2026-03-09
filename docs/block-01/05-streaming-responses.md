@@ -4,6 +4,8 @@ description: Learn how to stream LLM responses in real-time using Server-Sent Ev
 keywords: [ai, artificial intelligence, course, free, streaming, sse, server-sent events, real-time, openai, anthropic]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Streaming Responses
 
 > Learn how to stream LLM responses in real time using Server-Sent Events (SSE), giving users instant feedback instead of waiting for complete responses.
@@ -151,4 +153,67 @@ On the frontend, use the `EventSource` API or `fetch` with a readable stream to 
 - [Anthropic Streaming Guide](https://docs.anthropic.com/en/api/streaming)
 - [MDN — Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
 - [Vercel AI SDK — Streaming](https://sdk.vercel.ai/docs/ai-sdk-core/generating-text#streamtext)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is the primary advantage of 'streaming' LLM responses compared to waiting for a full response?",
+      options: [
+        "It reduces the total number of tokens used.",
+        "It provides a better user experience by showing tokens as they are generated, reducing perceived latency.",
+        "It is 50% cheaper than regular API calls.",
+        "It allows the model to reason more deeply before answering."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Streaming allows for instant feedback, appearing like a person typing, which prevents users from starting at a loading spinner for several seconds."
+    },
+    {
+      text: "Which standard web protocol is typically used to deliver streamed data from an LLM server to a client?",
+      options: [
+        "WebSockets (WS)",
+        "Server-Sent Events (SSE)",
+        "FTP",
+        "GraphQL Subscriptions"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "SSE is a lightweight, one-way protocol designed for streaming real-time data over HTTP, which is perfectly suited for delivering incremental token updates."
+    },
+    {
+      text: "When streaming from OpenAI, what is the 'delta' in a streamed chunk?",
+      options: [
+        "The total cost of the request so far.",
+        "A small piece of new text (content) added since the previous chunk.",
+        "A mathematical correction for model errors.",
+        "An encrypted signature for security verification."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Because the response is broken into pieces, each chunk contains a 'delta' representing only the newest characters or tokens generated."
+    },
+    {
+      text: "In the OpenAI SDK, what key parameter must be explicitly set to 'true' to receive a stream?",
+      options: [
+        "realtime",
+        "incremental",
+        "stream",
+        "async_mode"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "The 'stream' parameter toggles the API between returning a single JSON response and returning a stream of data events."
+    },
+    {
+      text: "In a JavaScript/TypeScript environment, what is the best way to process chunks from an API stream as they arrive?",
+      options: [
+        "Use a standard while loop with a 1-second delay.",
+        "Wait for the entire stream to finish, then split the string.",
+        "Use a 'for await...of' loop to iterate over the stream's asynchronous iterator.",
+        "Manually parse the raw TCP packets using a buffer."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "The 'for await...of' syntax is designed for processing asynchronous streams, allowing your code to react to each chunk immediately as it reaches the client."
+    }
+  ]}
+/>
+
 

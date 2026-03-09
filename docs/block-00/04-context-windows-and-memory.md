@@ -4,6 +4,8 @@ description: Learn how LLMs handle limited memory, why token limits matter, and 
 keywords: [ai, artificial intelligence, course, free, context window, token limits, chunking, memory, sliding window]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Context Windows & Memory
 
 > Learn how LLMs handle limited memory, why token limits matter, and strategies for working within them.
@@ -130,4 +132,66 @@ Research has shown that LLMs pay the most attention to tokens at the **beginning
 - [Anthropic — Long context prompting tips](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/long-context-tips)
 - [OpenAI — Managing tokens](https://platform.openai.com/docs/guides/rate-limits/managing-tokens)
 - [LangChain — Text splitters](https://js.langchain.com/docs/how_to/#text-splitters)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What does the 'context window' of an LLM represent?",
+      options: [
+        "The maximum number of simultaneous users the model can support.",
+        "The total number of tokens (input + output) the model can process in a single request.",
+        "The amount of hard drive storage required to run the model locally.",
+        "The model's long-term memory connecting multiple separate sessions."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The context window is the model's entire 'working memory' per API call, limited by a specific token count that includes the prompt, history, and the generated response."
+    },
+    {
+      text: "If your input plus the generated response exceeds the model's token limit, what happens?",
+      options: [
+        "The model will automatically compress the response to fit.",
+        "The API will charge you a premium fee for the extra tokens.",
+        "The API will either return an error (if input alone is too big) or cut off the response.",
+        "The model will open a new context window specifically for the overflow."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Exceeding the max context length results in an API error for inputs that are too long, or prematurely cuts off outputs that run out of space."
+    },
+    {
+      text: "When processing a document that is larger than the model's context window, what is the necessary approach?",
+      options: [
+        "Increase the model's temperature parameter.",
+        "Split the document into smaller pieces called 'chunks'.",
+        "Convert the document into a smaller file format like plain text.",
+        "Use only character-level tokenization."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Chunking is the process of breaking a large document into smaller pieces that safely fit within the context window limits so the model can process them."
+    },
+    {
+      text: "What is the 'lost in the middle' phenomenon?",
+      options: [
+        "The tendency for LLMs to forget the rules specified in the system prompt.",
+        "The model's inability to translate languages effectively for intermediate proficiency levels.",
+        "The tendency of LLMs to pay less attention to information located in the middle of a large context.",
+        "A bug where the API loses network connection halfway through generating a response."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Research indicates that LLMs focus best on information at the very beginning and very end of a prompt, often overlooking or placing less weight on details buried in the middle."
+    },
+    {
+      text: "How can you effectively manage the context window in a long-running multi-turn chat application?",
+      options: [
+        "Ask the user to retype their history in every message.",
+        "Use a sliding window to drop the oldest messages or periodically summarize the conversation history.",
+        "Switch to a base model since they don't have context limits.",
+        "Rely on the model's built-in permanent memory to recall earlier sessions."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "To keep history within the token limit, common strategies include a sliding window (keeping only recent messages) or summarizing older messages to condense the information."
+    }
+  ]}
+/>
 

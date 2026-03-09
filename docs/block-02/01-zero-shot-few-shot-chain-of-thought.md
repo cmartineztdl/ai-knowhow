@@ -4,6 +4,8 @@ description: Discover the three foundational prompting strategies (zero-shot, fe
 keywords: [ai, artificial intelligence, course, free, prompt engineering, zero-shot, few-shot, chain-of-thought, cot, ai prompting]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Zero-Shot, Few-Shot, Chain-of-Thought
 
 > Learn the three foundational prompting strategies and when to reach for each one.
@@ -140,4 +142,67 @@ const messages = [
 - [OpenAI — Prompt Engineering Best Practices](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Wei et al. — Chain-of-Thought Prompting (2022)](https://arxiv.org/abs/2201.11903)
 - [Brown et al. — Language Models are Few-Shot Learners (2020)](https://arxiv.org/abs/2005.14165)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is the primary difference between 'zero-shot' and 'few-shot' prompting?",
+      options: [
+        "Zero-shot uses multiple examples, while few-shot uses none.",
+        "Zero-shot provides only instructions with no examples, while few-shot provides 2-5 input/output examples first.",
+        "Zero-shot is for math, while few-shot is for creative writing.",
+        "Zero-shot requires a faster internet connection than few-shot."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Zero-shot relies entirely on the model's pre-existing knowledge from training, whereas few-shot teaches the model a new pattern by showing it specific examples within the prompt."
+    },
+    {
+      text: "When is 'few-shot' prompting specifically recommended over 'zero-shot'?",
+      options: [
+        "When you want the fastest possible response time.",
+        "When you need the model to follow a custom output format (like specific JSON) or follow niche domain conventions.",
+        "When the task is a simple, well-known classification problem.",
+        "When you don't have any examples of the desired output."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Examples help ground the model in the specific style, format, and logic you require, leading to more consistent results for complex or non-standard tasks."
+    },
+    {
+      text: "What is the core idea behind 'Chain-of-Thought' (CoT) prompting?",
+      options: [
+        "Linking multiple separate LLM calls together in a chain.",
+        "Breaking the instructions into multiple bullet points.",
+        "Asking the model to reason through a problem step-by-step before providing a final answer.",
+        "Using a chain-link emoji to signal the start of a prompt."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "CoT encourages the model to 'show its work,' which prevents it from making impulsive errors in logic, math, or multi-step reasoning."
+    },
+    {
+      text: "Can you combine different prompting strategies in a single request?",
+      options: [
+        "No, the model will get confused and return an error.",
+        "Yes, for example, you can provide few-shot examples that also demonstrate chain-of-thought reasoning.",
+        "Only if you are using an open-source model.",
+        "Yes, but only if you use a system prompt with exactly 100 words."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Combining strategies (like few-shot CoT) is often the most powerful way to handle highly complex tasks that require both specific formatting and deep reasoning."
+    },
+    {
+      text: "According to the Strategy Decision Matrix, which strategy is best for 'Math / multi-step logic' problems?",
+      options: [
+        "Zero-shot",
+        "Few-shot",
+        "Chain-of-Thought (CoT)",
+        "Role Priming"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Reasoning-heavy tasks like math benefit most from CoT because it forces the model to calculate intermediate steps correctly rather than guessing the final number."
+    }
+  ]}
+/>
+
 

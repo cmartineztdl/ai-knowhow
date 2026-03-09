@@ -4,6 +4,9 @@ description: Learn how LLMs break text into tokens and map them into numerical v
 keywords: [ai, artificial intelligence, course, free, tokenization, embeddings, bpe, vector space, tiktoken]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
+
 # Tokenization & Embeddings
 
 > Learn how LLMs break text into tokens, then map them into numerical vectors that capture meaning.
@@ -104,3 +107,65 @@ function cosineSimilarity(a: number[], b: number[]): number {
 - [Original BPE paper — Sennrich et al. 2016](https://arxiv.org/abs/1508.07909)
 - [OpenAI Embedding guide](https://platform.openai.com/docs/guides/embeddings)
 
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is tokenization in the context of Large Language Models?",
+      options: [
+        "The process of translating text into a different human language.",
+        "The process of breaking down text into smaller, manageable pieces (tokens).",
+        "The process of evaluating the accuracy of an LLM's output.",
+        "The process of encrypting text data for security."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Tokenization is the foundational step where raw text is segmented into smaller units, such as words or subwords, allowing the model to process and understand the text."
+    },
+    {
+      text: "What role do embeddings play in understanding language?",
+      options: [
+        "They determine the grammar rules the model uses to generate text.",
+        "They translate words directly into corresponding images.",
+        "They map tokens into high-dimensional vectors, capturing their semantic meaning and relationships.",
+        "They store the entire training dataset within the model's memory."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Embeddings represent tokens as numerical vectors in a continuous space, where the distance and direction between vectors reflect the semantic relationships (meaning) between the corresponding words or concepts."
+    },
+    {
+      text: "Why are sub-word tokens often preferred over whole-word tokens?",
+      options: [
+        "Tokens are always shorter than characters.",
+        "They allow the model to handle known words efficiently while breaking down unknown or rare words into familiar sub-components.",
+        "Tokens are only used for numerical data, which is faster to process.",
+        "Tokens guarantee that every word has a unique representation regardless of context."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Subword tokenization (like BPE) provides an optimal balance: it keeps the vocabulary size manageable while allowing the model to represent any word, even new or rare ones, by combining known sub-units."
+    },
+    {
+      text: "What is 'cosine similarity' commonly used for in vector spaces?",
+      options: [
+        "To count the total number of tokens in a document.",
+        "To measure how mathematically 'close' or semantically similar two embeddings are.",
+        "To encrypt sensitive data before sending it to an API.",
+        "To calculate the total cost of an API request."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Cosine similarity measures the angle between two vectors in high-dimensional space; the closer the vectors, the more semantically similar the tokens or texts they represent."
+    },
+    {
+      text: "What happens when a model's vocabulary doesn't contain a specific new word?",
+      options: [
+        "The model cannot process the text and returns an error.",
+        "The model replaces the word with a random synonym.",
+        "The tokenizer breaks the word into multiple smaller tokens that it does recognize.",
+        "The model ignores the word and proceeds to the next one."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Thanks to sub-word tokenization strategies like BPE, a model can handle any text by breaking unfamiliar words into smaller, known pieces (like 'un-', 'token', '-ifiable')."
+    }
+  ]}
+/>

@@ -4,6 +4,8 @@ description: Build reusable, dynamic prompts that adapt to different inputs with
 keywords: [ai, artificial intelligence, course, free, prompt templates, variables, prompt engineering, template engines, dynamic prompts]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Prompt Templates & Variables
 
 > Build reusable, dynamic prompts that adapt to different inputs without rewriting the whole thing.
@@ -192,4 +194,67 @@ This approach enables non-developers to edit prompts, simplifies A/B testing, an
 - [Handlebars.js](https://handlebarsjs.com/) — lightweight template engine
 - [Mustache — Logic-less Templates](https://mustache.github.io/)
 - [OpenAI Cookbook — Prompt Management](https://cookbook.openai.com/)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What is a major risk of 'hardcoding' prompts as static strings directly in your source code?",
+      options: [
+        "The application will crash if the string is too long.",
+        "It becomes a maintenance nightmare, making it difficult to update, version, or reuse the same prompt logic across different parts of an app.",
+        "Hardcoded strings use 10x more tokens than dynamic templates.",
+        "Search engines cannot index hardcoded strings."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Templates allow you to separate the 'how' (the prompt logic) from the 'what' (the specific data), making your system more modular and maintainable."
+    },
+    {
+      text: "Why is it often recommended to store prompt templates in external files specifically (like YAML or JSON)?",
+      options: [
+        "External files are always encrypted by the operating system.",
+        "It allows non-developers to edit and refine prompts without touching application code, and keeps prompts easily trackable in version control.",
+        "External files make the LLM model run faster.",
+        "YAML files don't use tokens."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Decoupling prompts from code enables faster iteration and allows subject matter experts (who might not be developers) to help tune model behavior."
+    },
+    {
+      text: "What is a 'conditional section' in a prompt template builder useful for?",
+      options: [
+        "Providing the model with a list of 'if/then' logic to follow.",
+        "Including or omitting specific context (like previous conversation history) only when it actually exists, keeping the prompt clean.",
+        "Checking if the user has a valid subscription before generating a prompt.",
+        "Encrypting the prompt before sending it to the API."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Conditional sections prevent 'dead weight' in your prompts (like 'Previous Results: none'), ensuring every token sent to the model is useful and relevant."
+    },
+    {
+      text: "In the context of the course, how does a prompt template function similarly to a 'parameterized query' in SQL?",
+      options: [
+        "Both are used to delete databases.",
+        "Both provide a fixed structure that remains constant while safely injecting variable data at runtime.",
+        "Both require a high-performance GPU to run.",
+        "There is no similarity."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Just as parameterized queries separate data from SQL logic for security and reuse, prompt templates separate data from prompting logic for consistency and maintainability."
+    },
+    {
+      text: "What is a benefit of using a dedicated template library (like Handlebars) over simple JavaScript template literals (`${var}`) for prompts?",
+      options: [
+        "Handlebars makes your prompt immune to hallucinations.",
+        "Libraries provide built-in support for advanced features like loops, partials, and logic-less conditionals out of the box.",
+        "Handlebars strings are automatically translated into 50+ languages.",
+        "Template literals are deprecated in modern JavaScript."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Template libraries offer more powerful tools for managing complex, multi-part prompts that would be messy to handle with raw string manipulation."
+    }
+  ]}
+/>
+
 

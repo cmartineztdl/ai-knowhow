@@ -4,6 +4,8 @@ description: Navigate the current LLM ecosystem. Discover which models exist (Op
 keywords: [ai, artificial intelligence, course, free, model landscape, openai, gpt, anthropic, claude, google, gemini, open-source, llama, mistral]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Model Landscape
 
 > Navigate the current LLM ecosystem — which models exist, what they're good at, and how to choose.
@@ -145,4 +147,66 @@ Use this decision framework:
 - [Google AI — Gemini](https://ai.google.dev/gemini-api/docs)
 - [Ollama — Run open-source models locally](https://ollama.ai)
 - [Chatbot Arena Leaderboard — LMSYS](https://chat.lmsys.org/?leaderboard)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "Which of the following OpenAI models is generally recommended as the fast, cheap option for high-volume or simpler tasks?",
+      options: [
+        "GPT-4o",
+        "o1",
+        "GPT-4o-mini",
+        "GPT-3"
+      ],
+      correctAnswerIndex: 2,
+      explanation: "GPT-4o-mini is positioned as a highly capable but significantly faster and cheaper alternative (typically 10-20x cheaper) for simpler or high-volume API requests compared to the flagship model."
+    },
+    {
+      text: "What is a standout feature of Anthropic's Claude 3.5 Sonnet that makes it particularly useful for analyzing large documents?",
+      options: [
+        "Its ability to run entirely offline on a smartphone.",
+        "Its massive 200K token context window.",
+        "Its built-in web scraping tool.",
+        "Its focus exclusively on medical and legal terminology."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "The Claude models currently feature a 200K token context window across the board, making them excellent choices for tasks involving long documents or large codebases."
+    },
+    {
+      text: "Which of the following models natively offers an enormous 2 million token context window?",
+      options: [
+        "Gemini 1.5 Pro",
+        "Llama 3 (70B)",
+        "GPT-4o",
+        "Claude 3 Opus"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Google's Gemini 1.5 Pro sets itself apart with an industry-leading 2 million token context window, allowing for massive data ingestion like entire codebases or long videos."
+    },
+    {
+      text: "What is a primary advantage of using open-source models like Llama 3 or Mistral over proprietary APIs?",
+      options: [
+        "They are guaranteed to be smarter than any proprietary model.",
+        "They allow for data privacy since they run on your own hardware, with zero per-token cost.",
+        "They have infinite context windows.",
+        "They automatically update themselves every week without any manual intervention."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Open-source models can be hosted locally or on rented GPUs, giving developers full control over their data (crucial for absolute privacy) and eliminating variable per-token API costs."
+    },
+    {
+      text: "When a task requires deep, complex reasoning (like advanced math or complex planning), which model family member is specifically designed as a 'thinking' model?",
+      options: [
+        "Gemini 1.5 Flash",
+        "GPT-4o-mini",
+        "Llama 3 (8B)",
+        "OpenAI's o1 / o3"
+      ],
+      correctAnswerIndex: 3,
+      explanation: "OpenAI's o-series models (like o1 and o3) are specifically engineered for deep reasoning, taking more time to 'think' through complex logic and math problems before producing an answer."
+    }
+  ]}
+/>
 

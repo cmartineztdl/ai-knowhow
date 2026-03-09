@@ -4,6 +4,8 @@ description: Learn how to control Large Language Model output by tuning temperat
 keywords: [ai, artificial intelligence, course, free, inference parameters, temperature, top-p, frequency penalty, stop sequences, llm]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Inference Parameters
 
 > Learn how to control LLM output by tuning temperature, top-p, frequency penalty, and stop sequences.
@@ -146,4 +148,66 @@ const extraction = await openai.chat.completions.create({
 - [OpenAI API — Parameters reference](https://platform.openai.com/docs/api-reference/chat/create)
 - [Anthropic — Sampling parameters](https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/increase-consistency)
 - [How to sample from language models — Hugging Face](https://huggingface.co/blog/how-to-generate)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "What does the 'temperature' parameter generally control in LLM inference?",
+      options: [
+        "The speed at which the model generates text.",
+        "The randomness and creativity of the generated output.",
+        "The maximum number of tokens the model can produce.",
+        "The model's baseline knowledge cutoff date."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Temperature scales the probability distribution of tokens; a lower temperature makes output deterministic (predictable), while a higher temperature makes it more varied and creative."
+    },
+    {
+      text: "When using Top-p (nucleus sampling), setting `top_p = 0.1` means:",
+      options: [
+        "The model will only consider the smallest set of tokens comprising the top 10% of probability mass.",
+        "The model will randomly discard 10% of its vocabulary.",
+        "The model guarantees 10% faster generation speeds.",
+        "The output will be 90% creative and 10% deterministic."
+      ],
+      correctAnswerIndex: 0,
+      explanation: "Top-p filtering focuses the model by only sampling from the most likely tokens whose combined probabilities reach the threshold p (0.1 in this case), yielding highly focused text."
+    },
+    {
+      text: "Why do API providers typically advise against adjusting both Temperature and Top-p simultaneously?",
+      options: [
+        "It causes the API request to fail with a syntax error.",
+        "It doubles the per-token cost of the request.",
+        "They interact in complex ways and can easily produce unexpected or low-quality results.",
+        "It causes the model to ignore the system prompt."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Both parameters act on the token probability distribution. Changing both at once makes it difficult to predict the final effect, so it's best practice to tune one while leaving the other at its default."
+    },
+    {
+      text: "How does a 'presence penalty' differ from a 'frequency penalty'?",
+      options: [
+        "Presence penalty stops the model entirely, while frequency simply slows it down.",
+        "Presence penalty applies to new topics, while frequency applies only to punctuation.",
+        "Presence penalty penalizes a token for appearing at all, encouraging new topics; frequency penalty penalizes based on how many times a token has already appeared.",
+        "There is no difference; they are two different names for the same setting."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "Frequency penalty increases the cost of repeating specific words based on their count, while presence penalty applies a flat cost if a word has appeared even once, which pushes the model to explore new subjects."
+    },
+    {
+      text: "What happens when the model generates a text string that matches a specified 'stop sequence'?",
+      options: [
+        "The model pauses, waits for user input, then continues.",
+        "The model immediately stops generating and returns the response without including the stop sequence itself.",
+        "The model deletes its current output and starts over.",
+        "The model highlights the sequence in red for human review."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Stop sequences act as strict boundaries; as soon as the sequence is output, the generation process halts, ensuring the response doesn't ramble past the intended structure."
+    }
+  ]}
+/>
 

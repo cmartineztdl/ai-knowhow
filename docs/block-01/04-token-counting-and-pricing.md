@@ -4,6 +4,8 @@ description: Learn how to count tokens before calling APIs and estimate costs to
 keywords: [ai, artificial intelligence, course, free, tokens, pricing, cost estimation, tiktoken, openai, anthropic]
 ---
 
+import Quiz from '@site/src/components/Quiz';
+
 # Token Counting & Pricing
 
 > Learn how to count tokens before calling APIs and estimate costs to keep your AI spending predictable.
@@ -147,4 +149,67 @@ Track these after each call to build your own cost monitoring — don't rely sol
 - [Anthropic Pricing](https://www.anthropic.com/pricing)
 - [tiktoken on npm](https://www.npmjs.com/package/tiktoken)
 - [OpenAI Tokenizer tool](https://platform.openai.com/tokenizer)
+
+## Knowledge Check
+
+<Quiz 
+  questions={[
+    {
+      text: "Which statement best describes how most LLM providers charge for API usage?",
+      options: [
+        "A flat monthly fee for unlimited messages.",
+        "You pay based on the time it takes the model to respond.",
+        "You are billed for both the tokens you send (input) and the tokens the model generates (output).",
+        "Input tokens are free; you only pay for output tokens."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "LLM pricing is almost always consumption-based, charging per token for both the prompt and the completion, often at different rates."
+    },
+    {
+      text: "If you need to calculate the exact number of tokens OpenAI's models will use for a piece of text, which library should you use?",
+      options: [
+        "lodash",
+        "tiktoken",
+        "count-tokens-js",
+        "dotenv"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "tiktoken is OpenAI's official library for counting tokens exactly as their models do."
+    },
+    {
+      text: "When using the `tiktoken` library in Node.js, what is a crucial step to avoid memory leaks?",
+      options: [
+        "Reinstalling the package after 1000 calls.",
+        "Calling `encoder.free()` after you are done with an encoder instance.",
+        "Only using it in small files under 1KB.",
+        "Running the script as a root user."
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Because tiktoken uses WebAssembly (WASM), it manages its own memory and requires an explicit `free()` call to release those resources."
+    },
+    {
+      text: "Approximately how much token 'overhead' is added per message in a chat completion beyond just the text of the message?",
+      options: [
+        "0 tokens",
+        "~4 tokens",
+        "exactly 10 tokens",
+        "100 tokens"
+      ],
+      correctAnswerIndex: 1,
+      explanation: "Chat models use special delimiters to separate roles; for OpenAI models, this typically adds about 3-4 tokens of overhead for every message in the array."
+    },
+    {
+      text: "What is a common 'rule of thumb' for quickly estimating token counts for English text without using a tokenizer library?",
+      options: [
+        "1 token per character.",
+        "10 tokens per word.",
+        "About 4 characters per token (or ~1.33 tokens per word).",
+        "1 token for every 10 sentences."
+      ],
+      correctAnswerIndex: 2,
+      explanation: "While not exact, the '4 chars per token' rule is a reliable way to get a ballpark estimate for English text."
+    }
+  ]}
+/>
+
 
