@@ -68,6 +68,10 @@ const config: Config = {
         content:
           "AI, artificial intelligence, course, free, programming, software engineering, developer tools",
       },
+      {
+        name: "google-site-verification",
+        content: "DlhRcafVGyGrd1NZ5UZ0RYKT8zF2oDzXXfWW7cFlKco",
+      },
     ],
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
