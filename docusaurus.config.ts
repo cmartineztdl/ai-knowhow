@@ -72,6 +72,9 @@ const config: Config = {
         name: "google-site-verification",
         content: "DlhRcafVGyGrd1NZ5UZ0RYKT8zF2oDzXXfWW7cFlKco",
       },
+      { name: "robots", content: "index, follow" },
+      { name: "author", content: "Carlos Martinez" },
+      { name: "publisher", content: "AI Know-How" },
     ],
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
