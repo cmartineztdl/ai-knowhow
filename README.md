@@ -21,6 +21,7 @@ The repository is organized to provide a seamless learning experience:
 - 📖 **[Block 0: Foundations: How LLMs Actually Work](https://cmartineztdl.github.io/ai-knowhow/docs/block-00/)** — Before using AI tools effectively you need a mental model of what is happening under the hood.
 - 📖 **[Block 1: Talking to Models: APIs & SDKs](https://cmartineztdl.github.io/ai-knowhow/docs/block-01/)** — Hands-on interaction with LLM APIs from JavaScript/TypeScript.
 - 📖 **[Block 2: Prompt Engineering](https://cmartineztdl.github.io/ai-knowhow/docs/block-02/)** — The art and science of getting the output you actually want.
+- 📖 **[Block 10: Agent Security & Governance](https://cmartineztdl.github.io/ai-knowhow/docs/block-10/)** — Advanced controls and security measures for autonomous AI systems.
 
 ### Coming Soon
 

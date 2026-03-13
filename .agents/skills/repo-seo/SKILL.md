@@ -14,6 +14,9 @@ Keep the root `README.md` optimized for GitHub repository search and discoverabi
 - **Block number** that was just created or updated (for context; the skill regenerates the _entire_ README regardless)
 - Course data is read from `docs/COURSE_OUTLINE.md` and the filesystem
 
+> [!IMPORTANT]
+> This skill MUST be run whenever a new block is added or an existing one is modified. It is the single source of truth for the repository's public-facing landing pages. Failure to update `README.md` and `src/pages/index.mdx` results in a fragmented user experience.
+
 ## Output
 
 Overwrites `/README.md` (the repository root) and `/src/pages/index.mdx` (the Docusaurus website homepage).

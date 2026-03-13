@@ -161,6 +161,20 @@ Responsible AI usage in production.
 
 ---
 
+## Block 10 — Agent Security & Governance
+
+Advanced controls for autonomous systems.
+
+| Topic                       | Key concepts                                                 |
+| --------------------------- | ------------------------------------------------------------ |
+| Agent Authorization & RBAC  | Defining permission boundaries, least privilege for agents   |
+| Execution Sandboxing        | Docker, gVisor, WebContainers, isolating code execution       |
+| File & Network Controls     | Scoped FS access, network allow-lists, egress filtering      |
+| Human-in-the-loop (HITL)    | Approval workflows, manual intervention, verification steps  |
+| Audit Logging & Tracing     | Immutable action logs, decision-trail reconstruction        |
+| Recursive Security          | Multi-step prompt injection defense, agent-to-agent security |
+
+---
 
 ## Suggested Learning Path
 
@@ -176,7 +190,9 @@ graph LR
   B6 --> B8
   B3 --> B8
   B8 --> B9[Block 9<br>Security]
+  B5 --> B10[Block 10<br>Agent Gov.]
+  B10 --> B9
   B1 --> B7[Block 7<br>Dev Tools]
 ```
 
-> **Blocks 0–2** are sequential prerequisites. After that, blocks can be explored in parallel depending on interest, converging again at **Block 8**.
+> **Blocks 0–2** are sequential prerequisites. After that, blocks can be explored in parallel depending on interest, converging again at **Block 8** and then covering the core security and governance in **Blocks 9 and 10**.

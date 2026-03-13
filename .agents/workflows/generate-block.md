@@ -53,18 +53,17 @@ Use the **quiz-generator** skill (`.agents/skills/quiz-generator/SKILL.md`):
 - Scan the newly generated `.md` files in `/docs/block-XX/`
 - For each file, generate 5 questions and append the Quiz component to the end
 
-### 6. Update repository SEO
+### 6. Update repository & website SEO
 
 Use the **repo-seo** skill (`.agents/skills/repo-seo/SKILL.md`):
 
+- Read the skill instructions
 - Regenerate the root `README.md` to include the new block
-- Verify the README renders correctly in Markdown
+- Regenerate `src/pages/index.mdx` (Docusaurus homepage)
+- Verify both files render correctly and contain the updated block list
 
-### 7. Commit
+### 7. Manual Review
 
-```bash
-git add docs/block-XX README.md
-git commit -m "Add content docs, images, SEO, and quizzes for block block-XX"
-```
+Review the generated changes in your IDE and on the local dev server. Once satisfied, you can manually commit the changes.
 
 Replace `XX` with the actual block number.
