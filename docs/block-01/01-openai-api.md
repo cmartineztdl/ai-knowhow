@@ -122,11 +122,9 @@ if (toolCall) {
 }
 ```
 
-The model doesn't execute the function — it tells you _which_ function to call and _with what arguments_. You run the function, then send the result back in a follow-up message. We'll explore this in depth in Block 4.
-
-## Visual Aids
-
 ![Diagram showing the flow of a Chat Completions API call: client sends messages array to OpenAI endpoint, receives a response with choices containing the assistant message](images/01-openai-chat-flow.webp)
+
+The model doesn't execute the function — it tells you _which_ function to call and _with what arguments_. You run the function, then send the result back in a follow-up message. We'll explore this in depth in Block 4.
 
 ## Key Takeaways
 

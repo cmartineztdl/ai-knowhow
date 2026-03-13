@@ -83,8 +83,6 @@ A single Transformer block stacks these components:
 
 Modern LLMs stack dozens or hundreds of these blocks. GPT-4 is rumored to have 120 layers; Llama 3 70B has 80. Each layer refines the representation, building from surface-level patterns in early layers to abstract reasoning in later ones.
 
-## Visual Aids
-
 ![Architecture diagram of a Transformer block showing multi-head self-attention, feed-forward network, and residual connections](images/02-transformer-block.webp)
 
 ## Key Takeaways

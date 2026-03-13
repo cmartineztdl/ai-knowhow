@@ -128,11 +128,9 @@ console.log(response.usage);
 // { input_tokens: 20, output_tokens: 130 }
 ```
 
-Track these after each call to build your own cost monitoring — don't rely solely on the provider's dashboard.
-
-## Visual Aids
-
 ![Breakdown diagram showing how input tokens and output tokens contribute to total API cost, with example calculations for different models](images/04-token-pricing-breakdown.webp)
+
+Track these after each call to build your own cost monitoring — don't rely solely on the provider's dashboard.
 
 ## Key Takeaways
 

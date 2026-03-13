@@ -131,8 +131,6 @@ const extraction = await openai.chat.completions.create({
 });
 ````
 
-## Visual Aids
-
 ![Comparison chart showing how different temperature values affect token probability distribution and output variety](images/05-temperature-distribution.webp)
 
 ## Key Takeaways

@@ -124,8 +124,6 @@ const messages = [
 | Complex task with specific format     | Few-shot + CoT | Combines example patterns with reasoning |
 | Quick prototype                       | Zero-shot  | Fastest to iterate                     |
 
-## Visual Aids
-
 ![Comparison diagram showing the three prompting strategies: zero-shot with just instructions, few-shot with example pairs, and chain-of-thought with step-by-step reasoning](images/01-prompting-strategies.webp)
 
 ## Key Takeaways

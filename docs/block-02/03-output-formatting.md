@@ -146,8 +146,6 @@ TAGS: <comma-separated list>`;
 
 For custom formats, parse them with simple string operations or regex. The key is being extremely explicit about the format in the prompt and validating the output in code.
 
-## Visual Aids
-
 ![Diagram showing the spectrum of output formatting approaches: from prompt-based hints on the left through JSON mode in the middle to strict schema enforcement on the right, with reliability increasing left to right](images/03-output-formatting-spectrum.webp)
 
 ## Key Takeaways

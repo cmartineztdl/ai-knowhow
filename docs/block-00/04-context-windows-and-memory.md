@@ -114,8 +114,6 @@ function trimConversation(
 
 Research has shown that LLMs pay the most attention to tokens at the **beginning** and **end** of the context, while information buried in the middle gets less attention. This means the order in which you present information matters — put the most important content at the beginning or end of your prompt.
 
-## Visual Aids
-
 ![Illustration of a context window showing how system prompt, conversation history, and new user message fill up the available token budget](images/04-context-window-layout.webp)
 
 ## Key Takeaways

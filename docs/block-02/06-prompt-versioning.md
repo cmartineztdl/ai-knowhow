@@ -210,8 +210,6 @@ Follow semantic versioning for prompts:
 - **Minor** (1.0.0 → 1.1.0): New constraints, format changes, model upgrade
 - **Major** (1.0.0 → 2.0.0): Complete prompt rewrite, different output structure
 
-## Visual Aids
-
 ![Diagram showing the prompt versioning lifecycle: prompt creation, version tagging, A/B testing with evaluation metrics, and deployment with rollback capability](images/06-versioning-lifecycle.webp)
 
 ## Key Takeaways

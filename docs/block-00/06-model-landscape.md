@@ -127,8 +127,6 @@ Use this decision framework:
 5. **Cost**: Is budget tight? → Open-source, or GPT-4o-mini / Gemini Flash
 6. **Multimodal**: Do you need image/video input? → GPT-4o, Gemini, Claude Sonnet
 
-## Visual Aids
-
 ![Comparison chart of major LLM families showing relative strengths in reasoning, speed, context size, and cost](images/06-model-comparison.webp)
 
 ## Key Takeaways

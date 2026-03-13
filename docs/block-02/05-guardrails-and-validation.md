@@ -223,8 +223,6 @@ async function getValidOutput<T>(
 }
 ```
 
-## Visual Aids
-
 ![Flowchart showing the guardrails pipeline: user input flows through input sanitization, injection detection, then to the LLM, and the output flows through format validation, content filtering, and refusal detection before reaching the application](images/05-guardrails-pipeline.webp)
 
 ## Key Takeaways

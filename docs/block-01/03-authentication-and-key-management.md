@@ -123,8 +123,6 @@ async function getApiKey(secretName: string): Promise<string> {
 }
 ```
 
-## Visual Aids
-
 ![Flowchart showing the hierarchy of secret management: development uses .env files, staging uses CI/CD secrets, production uses cloud secret managers](images/03-key-management-flow.webp)
 
 ## Key Takeaways

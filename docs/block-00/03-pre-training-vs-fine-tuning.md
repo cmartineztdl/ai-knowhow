@@ -82,13 +82,12 @@ const pipeline = {
 // in tone, accuracy, and formatting compared to SFT alone.
 ```
 
+![Flowchart showing the three-stage LLM training pipeline from pre-training on raw text, through supervised fine-tuning with instruction pairs, to RLHF polish](images/03-training-pipeline.webp)
+
 ### Instruction Tuning vs Chat Tuning
 
 You'll see models labeled "instruct" (e.g., GPT-3.5-turbo-instruct) or "chat" (most modern models). **Instruct models** are fine-tuned for single-turn instructions. **Chat models** are fine-tuned on multi-turn conversations with system/user/assistant roles. For API work, chat models are almost always what you want.
 
-## Visual Aids
-
-![Flowchart showing the three-stage LLM training pipeline from pre-training on raw text, through supervised fine-tuning with instruction pairs, to RLHF polish](images/03-training-pipeline.webp)
 
 ## Key Takeaways
 

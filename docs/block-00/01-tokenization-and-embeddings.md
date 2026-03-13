@@ -65,6 +65,8 @@ After tokenization, each token ID is looked up in an **embedding table** — a m
 
 The magic is that arithmetic on these vectors produces meaningful results. The classic example: `vector("king") - vector("man") + vector("woman") ≈ vector("queen")`.
 
+![Diagram showing how raw text is split into BPE tokens and then mapped to high-dimensional embedding vectors in a vector space](images/01-token-embedding-space.webp)
+
 ```typescript
 // Using OpenAI's embedding API to get vectors for text
 import OpenAI from "openai";
@@ -88,9 +90,6 @@ function cosineSimilarity(a: number[], b: number[]): number {
 }
 ```
 
-## Visual Aids
-
-![Diagram showing how raw text is split into BPE tokens and then mapped to high-dimensional embedding vectors in a vector space](images/01-token-embedding-space.webp)
 
 ## Key Takeaways
 

@@ -142,11 +142,9 @@ for (const block of response.content) {
 }
 ```
 
-Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as content blocks with `type: "tool_use"` (not a separate `tool_calls` array).
-
-## Visual Aids
-
 ![Diagram comparing OpenAI and Anthropic API request structures side by side, showing how system prompts, messages, and tool definitions differ between the two](images/02-anthropic-vs-openai.webp)
+
+Notice: Anthropic uses `input_schema` (not `parameters`), and tool calls come as content blocks with `type: "tool_use"` (not a separate `tool_calls` array).
 
 ## Key Takeaways
 

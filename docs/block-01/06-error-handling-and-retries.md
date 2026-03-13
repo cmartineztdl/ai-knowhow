@@ -197,11 +197,9 @@ async function callLLM(prompt: string) {
 }
 ```
 
-This gives you: retry with backoff for transient errors → circuit break if failures persist → fast fail when the circuit is open.
-
-## Visual Aids
-
 ![Diagram showing the circuit breaker state machine: closed state allows requests, open state blocks them, half-open state lets one test request through](images/06-circuit-breaker-states.webp)
+
+This gives you: retry with backoff for transient errors → circuit break if failures persist → fast fail when the circuit is open.
 
 ## Key Takeaways
 

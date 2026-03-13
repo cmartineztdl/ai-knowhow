@@ -176,8 +176,6 @@ user: |
 
 This approach enables non-developers to edit prompts, simplifies A/B testing, and keeps prompts under version control alongside (but separate from) your application code.
 
-## Visual Aids
-
 ![Flowchart showing how a prompt template goes from a YAML file through a template engine, gets injected with runtime variables, and becomes a final rendered prompt sent to the LLM API](images/04-template-pipeline.webp)
 
 ## Key Takeaways

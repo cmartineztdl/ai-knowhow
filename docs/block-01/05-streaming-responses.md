@@ -132,11 +132,9 @@ async function handleStream(req: Request, res: Response) {
 }
 ```
 
-On the frontend, use the `EventSource` API or `fetch` with a readable stream to consume these events.
-
-## Visual Aids
-
 ![Sequence diagram showing the streaming flow: client sends request, server opens SSE connection, tokens arrive as delta events in real time, client renders each token progressively](images/05-streaming-sequence.webp)
+
+On the frontend, use the `EventSource` API or `fetch` with a readable stream to consume these events.
 
 ## Key Takeaways
 

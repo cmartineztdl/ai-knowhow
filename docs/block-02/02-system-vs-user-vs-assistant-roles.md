@@ -122,8 +122,6 @@ What happens when system and user messages conflict? The model generally priorit
 
 This is why **guardrails** (covered in topic 05) matter: you can't rely on the system prompt alone to prevent all misuse.
 
-## Visual Aids
-
 ![Diagram showing the role hierarchy: system prompt at the top setting rules and persona, user messages as inputs, and assistant messages as responses, with arrows showing how they influence model behavior](images/02-role-architecture.webp)
 
 ## Key Takeaways
