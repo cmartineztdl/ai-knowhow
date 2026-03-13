@@ -59,9 +59,7 @@ Explanation with code examples.
 
 ## Visual Aids
 
-![description](images/placeholder-name.webp)
-Include image placeholders where diagrams or illustrations would help.
-Describe what the image should show in the alt text.
+Do NOT create a separate "Visual Aids" section. Instead, place `![description](images/placeholder-name.webp)` placeholders directly within the "Core Concepts" section, immediately after the paragraph or code block that the image is intended to illustrate. Describe what the image should show in the alt text.
 
 ## Key Takeaways
 

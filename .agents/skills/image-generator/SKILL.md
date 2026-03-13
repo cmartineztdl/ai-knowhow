@@ -17,7 +17,7 @@ Create visual aids (diagrams, architecture visuals, concept illustrations) that 
 ## Output
 
 - Images saved to `/docs/block-XX/images/` as `.webp`
-- Content `.mdx` files updated with embedded image references
+- Content `.mdx` files updated with embedded image references placed inline.
 
 ## Instructions
 
@@ -26,7 +26,8 @@ Create visual aids (diagrams, architecture visuals, concept illustrations) that 
    - Concepts that would benefit from a visual but don't have a placeholder yet
 2. **For each image needed**, use the `generate_image` tool with a detailed prompt.
 3. **Save** the generated image to `/docs/block-XX/images/<descriptive-name>.webp`
-4. **Update** the corresponding `.mdx` file to embed the image with proper alt text.
+4. **Update** the corresponding `.mdx` file to embed the image with proper alt text. Ensure the image is placed **inline**, following the paragraph it explains. 
+5. **Clean up**: If a `## Visual Aids` section exists at the end of the file, remove the header and ensure all images are moved to their respective inline locations.
 
 ## Image Types & Prompt Guidelines
 
@@ -70,7 +71,7 @@ Create visual aids (diagrams, architecture visuals, concept illustrations) that 
 ![Description of what the image shows](images/filename.webp)
 ```
 
-The alt text must be a genuine description of the image content (not just the filename), for accessibility.
+The image should be placed immediately after the paragraph or code block it illustrates. The alt text must be a genuine description of the image content (not just the filename), for accessibility.
 
 ## Quality Checklist
 
